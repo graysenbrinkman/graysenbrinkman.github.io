@@ -57,7 +57,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Graysen Brinkman"
+  name   : 
   avatar : "/assets/images/bio-photo.jpg"
   bio: |
     Aerospace Engineering Student

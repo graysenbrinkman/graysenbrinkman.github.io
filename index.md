@@ -78,41 +78,41 @@ This portfolio highlights my academic projects, research experiences, technical 
 
 <div class="card-container">
 
-<div class="info-card">
-  <h3>Areas of Focus</h3>
+  <div class="info-card">
+    <h3>Areas of Interest</h3>
 
-  <ul>
-    <li>Flight Mechanics</li>
-    <li>Orbital Mechanics</li>
-    <li>Aerospace Systems</li>
-    <li>Aircraft Design</li>
-    <li>Space Mission Design</li>
-  </ul>
-</div>
+    <ul>
+      <li>Flight Mechanics</li>
+      <li>Orbital Mechanics</li>
+      <li>Aerospace Systems</li>
+      <li>Aircraft Design</li>
+      <li>Space Mission Design</li>
+    </ul>
+  </div>
 
-</div>
+  <div class="info-card">
+    <h3>Technical Skills</h3>
 
-<div class="info-card">
-  <h3>Technical Skills</h3>
+    <strong>Programming</strong>
 
-  <strong>Programming</strong>
+    <ul>
+      <li>MATLAB</li>
+      <li>Python</li>
+    </ul>
 
-  <ul>
-    <li>MATLAB</li>
-    <li>Python</li>
-  </ul>
+    <strong>Engineering</strong>
 
-  <strong>Engineering</strong>
+    <ul>
+      <li>SolidWorks</li>
+      <li>ANSYS</li>
+    </ul>
 
-  <ul>
-    <li>SolidWorks</li>
-    <li>ANSYS</li>
-  </ul>
+    <strong>Technical Areas</strong>
 
-  <strong>Technical Areas</strong>
+    <ul>
+      <li>Aerodynamics</li>
+      <li>Flight Dynamics</li>
+    </ul>
+  </div>
 
-  <ul>
-    <li>Aerodynamics</li>
-    <li>Flight Dynamics</li>
-  </ul>
 </div>

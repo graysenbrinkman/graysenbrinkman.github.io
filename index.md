@@ -11,8 +11,11 @@ permalink: /
   margin-bottom: 2rem;
   overflow: hidden;
   border-radius: 12px;
-}
 
+  width: calc(100% + 50px);
+  margin-right: -50px;
+}
+  
 .hero-banner img {
   width: 100%;
   height: 420px;

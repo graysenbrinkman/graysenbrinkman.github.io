@@ -1,8 +1,12 @@
 ---
-permalink: /about/
+permalink: /About_Me/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I am an Aerospace Engineering student with a strong interest in aerospace systems, flight mechanics, orbital mechanics, and engineering design. Through coursework, technical projects, and extracurricular involvement, I have developed experience applying engineering principles to solve complex problems and analyze real-world systems.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+My interests span both aeronautics and astronautics, with particular enthusiasm for spaceflight, mission design, and the technologies that enable exploration beyond Earth. I enjoy combining analytical problem-solving with hands-on engineering work, whether through design projects, research activities, or independent technical pursuits.
+
+In addition to my academic work, I am continually seeking opportunities to expand my engineering experience through research, project teams, and industry engagement. I am especially interested in gaining practical experience that bridges classroom theory with real aerospace applications.
+
+This portfolio highlights my academic projects, research experiences, technical skills, and professional development as I continue working toward a career in the aerospace industry.

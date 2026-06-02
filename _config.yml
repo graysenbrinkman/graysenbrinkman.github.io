@@ -53,7 +53,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
@@ -61,18 +60,6 @@ author:
   name   : "Graysen Brinkman"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "B.S in Aerospace Engineering in the Aeronautics Track and an Applied Math Minor at Embry-Riddle Aeronautical University."
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:graybrinkman06@gmail.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/graysen-brinkman"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/graysenbrinkman"
-
-footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -111,5 +98,4 @@ tag_archive:
   type: liquid
   path: /tags/
 
-  atom_feed:
-  hide: true
+

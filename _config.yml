@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Graysen Brinkman"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "B.S in Aerospace Engineering in the Aeronautics Track and an Applied Math Minor at Embry-Riddle Aeronautical University."
+  bio    : "Aerospace Engineering (Aeronautics) student with an Applied Mathematics minor at Embry-Riddle Aeronautical University."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"

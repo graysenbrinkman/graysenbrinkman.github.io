@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Graysen Brinkman"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "B.S in Aerospace Engineering in the Aeronautics Track and an Applied Math Minor at Embry-Riddle Aeronautical University."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -71,9 +71,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "www.linkedin.com/in/graysen-brinkman"
 
 footer:
   links:

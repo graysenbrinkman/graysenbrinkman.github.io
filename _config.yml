@@ -60,16 +60,19 @@ author:
   name   : "Graysen Brinkman"
   avatar : "/assets/images/bio-photo.jpg"
   bio: |
-  Aerospace Engineering Student
-  Embry-Riddle Aeronautical University
-  Minor in Applied Mathematics
+    Aerospace Engineering Student
+    Embry-Riddle Aeronautical University
+    Minor in Applied Mathematics
+
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:graybrinkman06@gmail.com"
+
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/graysen-brinkman"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/graysenbrinkman"

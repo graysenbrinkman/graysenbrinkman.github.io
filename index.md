@@ -13,7 +13,7 @@ permalink: /
   border-radius: 12px;
 
   width: calc(100% + 50px);
-  margin-right: -50px;
+  margin-right: -150px;
 }
   
 .hero-banner img {

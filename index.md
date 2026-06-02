@@ -18,7 +18,7 @@ permalink: /
   
 .hero-banner img {
   width: 100%;
-  height: 420px;
+  height: 500px;
   object-fit: cover;
   display: block;
 }

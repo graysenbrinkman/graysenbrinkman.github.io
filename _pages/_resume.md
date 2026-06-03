@@ -21,7 +21,7 @@ Download Resume (PDF) </a>
 </div>
 
 <iframe
-    src="/assets/files/Graysen_Brinkman_Resume.pdf"
+    src="/assets/files/GraysenBrinkmanResume.pdf"
     width="100%"
     height="1200px"
     style="border:none;">

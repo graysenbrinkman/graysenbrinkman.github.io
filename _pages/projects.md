@@ -1,3 +1,10 @@
+---
+layout: single
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
 <style>
   /* OVERRIDE THEME DEFAULTS: 
      Remove the invisible right-side padding reserved for the TOC */

@@ -25,6 +25,6 @@ View Resume (PDF) </a>
 <iframe
     src="/assets/files/GraysenBrinkmanResume.pdf"
     width="100%"
-    height="1200px"
+    height="800px"
     style="border:none;">
 </iframe>

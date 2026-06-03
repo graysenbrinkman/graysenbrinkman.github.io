@@ -6,7 +6,7 @@ author_profile: false
 
 <div style="margin-bottom: 20px;">
 
-<a href="/assets/files/Graysen_Brinkman_Resume.pdf"
+<a href="/assets/files/GraysenBrinkmanResume.pdf"
 download
 style="
    display:inline-block;

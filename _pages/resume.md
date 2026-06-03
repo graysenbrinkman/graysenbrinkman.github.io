@@ -31,15 +31,17 @@ classes: wide
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; margin-top: 10px;">
   <h1 style="margin: 0; font-size: 2.5rem; font-weight: 700; color: #292b2c;">Resume</h1>
-  <a href="/assets/files/GraysenBrinkmanResume.pdf" target="_blank"
-     style="display:inline-block; background:#2563eb; color:white; padding:10px 18px; border-radius:8px; text-decoration:none; font-weight:600; font-size: 0.95em;">
-     View Resume (PDF)
+  
+  <a href="/assets/files/GraysenBrinkmanResume.pdf" 
+     download="Graysen_Brinkman_Resume.pdf"
+     style="display:inline-block; background:#2563eb; color:white; padding:10px 18px; border-radius:8px; text-decoration:none; font-weight:600; font-size: 0.95em; box-shadow: 0 2px 4px rgba(37, 99, 235, 0.2);">
+     Download Resume (PDF)
   </a>
 </div>
 
 <iframe
-    src="/assets/files/GraysenBrinkmanResume.pdf"
+    src="/assets/files/GraysenBrinkmanResume.pdf#toolbar=0&navpanes=0"
     width="100%"
     height="850px"
-    style="border:none; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+    style="border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
 </iframe>

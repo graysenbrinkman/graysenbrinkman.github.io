@@ -3,6 +3,7 @@ layout: single
 title: "Resume"
 permalink: /resume/
 author_profile: false
+classes: wide
 ---
 
 <div style="margin-bottom: 20px;">

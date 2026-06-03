@@ -7,28 +7,28 @@ classes: wide
 ---
 
 <style>
-  /* 1. Hide the sidebar completely */
+  /* Hide the sidebar */
   .sidebar { 
     display: none !important; 
   }
   
-  /* 2. Reset the grid layout and remove the forced right float */
+  /* Reset the grid layout */
   .page {
     width: 100% !important;
     float: none !important;
     padding-right: 0 !important;
   }
   
-  /* 3. Perfect max-width container for a beautifully scaled resume layout */
+  /* Increased max-width to make the resume display significantly larger */
   #main {
     width: 100% !important;
-    max-width: 740px !important; 
+    max-width: 850px !important; 
     margin-left: auto !important;
     margin-right: auto !important;
     padding: 0 20px !important;
   }
 
-  /* 4. High-end, native-feeling UI download button */
+  /* Sleek, interactive download button */
   .resume-download-btn {
     display: inline-flex;
     align-items: center;
@@ -36,7 +36,7 @@ classes: wide
     color: #292b2c;
     border: 1px solid #dcdde1;
     padding: 8px 16px;
-    border-radius: 20px; /* Modern sleek pill shape */
+    border-radius: 20px;
     text-decoration: none !important;
     font-weight: 600;
     font-size: 0.85em;
@@ -45,7 +45,6 @@ classes: wide
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   }
 
-  /* Smooth interactive state that turns blue ONLY on hover */
   .resume-download-btn:hover {
     background: #2563eb !important; 
     border-color: #2563eb !important;
@@ -55,6 +54,7 @@ classes: wide
   }
 </style>
 
+<!-- Header row with title and button -->
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; margin-top: 10px;">
   <h1 style="margin: 0; font-size: 2.2rem; font-weight: 700; color: #292b2c;">Resume</h1>
   
@@ -69,9 +69,10 @@ classes: wide
   </a>
 </div>
 
+<!-- The PDF Viewer (Height increased to 1100px to match the wider scale) -->
 <iframe
     src="/assets/files/GraysenBrinkmanResume.pdf#toolbar=0&navpanes=0&view=FitH"
     width="100%"
-    height="880px"
-    style="border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+    height="1100px"
+    style="border: 1px solid #d1d5db; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: block;">
 </iframe>

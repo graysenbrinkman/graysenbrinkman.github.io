@@ -8,7 +8,7 @@ author_profile: false
 <div style="margin-bottom: 20px;">
 
 <a href="/assets/files/GraysenBrinkmanResume.pdf"
-download
+target="_blank"
 style="
    display:inline-block;
    background:#2563eb;
@@ -17,7 +17,7 @@ style="
    border-radius:8px;
    text-decoration:none;
    font-weight:600;">
-Download Resume (PDF) </a>
+View Resume (PDF) </a>
 
 </div>
 

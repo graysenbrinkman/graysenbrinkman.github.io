@@ -130,3 +130,37 @@ author_profile: true
     .project-content { width: 100%; padding: 15px; }
   }
 </style>
+
+<div class="projects-list">
+
+  <a href="/projects/nozzle-analysis/" class="project-card">
+    <div class="project-img-wrapper">
+      <img src="/assets/images/nozzle-thumb.jpg" alt="Nozzle Analysis Project" class="project-img" onerror="this.src='https://placehold.co/600x400/f1f5f9/64748b?text=Nozzle+Analysis'">
+    </div>
+    <div class="project-content">
+      <div class="project-timeline">Apr 2026</div>
+      <h2 class="project-title">Compressible Flow Nozzle Analysis</h2>
+      <p class="project-summary">Coded a custom computational flow classification program that accurately models converging-diverging nozzle environments, calculating pressure maps and mapping internal shock locations.</p>
+      <span class="project-link-text">
+        View Project Details 
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 12L10 8L6 4" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+    </div>
+  </a>
+
+  <a href="/projects/orbit-determination/" class="project-card">
+    <div class="project-img-wrapper">
+      <img src="/assets/images/orbit-thumb.jpg" alt="Orbit Determination Project" class="project-img" onerror="this.src='https://placehold.co/600x400/f1f5f9/64748b?text=Orbit+Determination'">
+    </div>
+    <div class="project-content">
+      <div class="project-timeline">Mar 2026 – Apr 2026</div>
+      <h2 class="project-title">Orbit Determination Analysis (Gauss Method)</h2>
+      <p class="project-summary">Developed complex MATLAB scripts utilizing the Gauss Method to extract and process clean orbital elements directly from raw observational tracking data inputs.</p>
+      <span class="project-link-text">
+        View Project Details 
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 12L10 8L6 4" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+    </div>
+  </a>
+
+</div>

@@ -7,48 +7,51 @@ classes: wide
 ---
 
 <style>
-  .sidebar { display: none !important; }
-  .page { width: 100% !important; float: none !important; padding-right: 0 !important; }
+  /* 1. Hide the sidebar completely */
+  .sidebar { 
+    display: none !important; 
+  }
   
+  /* 2. Reset the grid layout and remove the forced right float */
+  .page {
+    width: 100% !important;
+    float: none !important;
+    padding-right: 0 !important;
+  }
+  
+  /* 3. Perfect max-width container for a beautifully scaled resume layout */
   #main {
     width: 100% !important;
-    max-width: 720px !important; /* Slightly wider for elegant spacing */
+    max-width: 740px !important; 
     margin-left: auto !important;
     margin-right: auto !important;
     padding: 0 20px !important;
   }
 
-  /* Upgraded Native-style Action Button */
-  .resume-action-btn {
+  /* 4. High-end, native-feeling UI download button */
+  .resume-download-btn {
     display: inline-flex;
     align-items: center;
-    background: #292b2c; /* Matches the header text color exactly */
-    color: #ffffff !important;
-    border: 1px solid #292b2c;
+    background: #ffffff;
+    color: #292b2c;
+    border: 1px solid #dcdde1;
     padding: 8px 16px;
-    border-radius: 20px; /* Modern pill style */
+    border-radius: 20px; /* Modern sleek pill shape */
     text-decoration: none !important;
     font-weight: 600;
     font-size: 0.85em;
-    letter-spacing: 0.3px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.06);
-    transition: all 0.2s ease;
+    letter-spacing: 0.2px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   }
 
-  .resume-action-btn:hover {
-    background: #495057;
-    border-color: #495057;
+  /* Smooth interactive state that turns blue ONLY on hover */
+  .resume-download-btn:hover {
+    background: #2563eb !important; 
+    border-color: #2563eb !important;
+    color: #ffffff !important;
     transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-
-  /* Crisp Image Shadow */
-  .resume-preview-img {
-    width: 100%;
-    height: auto;
-    border: 1px solid #e5e7eb;
-    border-radius: 6px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 10px rgba(37, 99, 235, 0.2);
   }
 </style>
 
@@ -57,7 +60,7 @@ classes: wide
   
   <a href="/assets/files/GraysenBrinkmanResume.pdf" 
      download="Graysen_Brinkman_Resume.pdf"
-     class="resume-action-btn">
+     class="resume-download-btn">
      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" style="margin-right: 8px;" viewBox="0 0 16 16">
        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v2.5a.5.5 0 0 1 .5-.5z"/>
        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
@@ -66,4 +69,9 @@ classes: wide
   </a>
 </div>
 
-<img src="/assets/files/GraysenBrinkmanResume.png" alt="Resume Preview" class="resume-preview-img">
+<iframe
+    src="/assets/files/GraysenBrinkmanResume.pdf#toolbar=0&navpanes=0&view=FitH"
+    width="100%"
+    height="880px"
+    style="border: 1px solid #e5e7eb; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+</iframe>

@@ -37,6 +37,8 @@ permalink: /
   display: block;
 }
 
+/* Hero Text */
+
 .hero-text {
   position: absolute;
   bottom: 40px;
@@ -47,9 +49,18 @@ permalink: /
 
 .hero-text h1 {
   margin: 0;
-  font-size: 3.5rem;
+  font-size: 2.8rem;
   font-weight: 700;
   line-height: 1.1;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+.hero-text p {
+  margin: 0.35rem 0 0 0;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: rgba(255,255,255,0.9);
   text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
 }
 
@@ -147,7 +158,11 @@ permalink: /
   }
 
   .hero-text h1 {
-    font-size: 2.4rem;
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 0.85rem;
   }
 
   .stats-row,
@@ -161,7 +176,8 @@ permalink: /
   <img src="/assets/images/airplanebanner.jpg" alt="Aircraft Banner">
 
   <div class="hero-text">
-    <h1>Engineering Portfolio</h1>
+    <h1>Graysen Brinkman</h1>
+    <p>Aerospace Engineering Student</p>
   </div>
 </div>
 

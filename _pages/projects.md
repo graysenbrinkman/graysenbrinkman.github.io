@@ -6,67 +6,54 @@ author_profile: true
 ---
 
 <style>
-
-/* Container */
-
-.projects-list {
+/* Main Container */
+.projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  gap: 28px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
   margin-top: 20px;
 }
 
-/* Card */
-
+/* Project Cards */
 .project-card {
   display: flex;
   flex-direction: column;
-
-  background: #ffffff;
-
-  border: 1px solid #e5e7eb;
-  border-radius: 14px;
-
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
   overflow: hidden;
-
   text-decoration: none !important;
   color: inherit !important;
-
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-
   transition: all 0.25s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
 .project-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
   border-color: #cbd5e1;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.08);
 }
 
-/* Image */
-
-.project-img-wrapper {
+.project-image {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 220px;
   overflow: hidden;
-  background: #f8fafc;
+  background: #e2e8f0;
 }
 
-.project-img {
+.project-image img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
-
   transition: transform 0.3s ease;
 }
 
-.project-card:hover .project-img {
-  transform: scale(1.03);
+.project-card:hover .project-image img {
+  transform: scale(1.04);
 }
 
 /* Content */
-
 .project-content {
   padding: 22px;
   display: flex;
@@ -74,160 +61,121 @@ author_profile: true
   flex-grow: 1;
 }
 
-/* Timeline */
-
-.project-timeline {
+.project-date {
   font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 1px;
   color: #64748b;
   margin-bottom: 10px;
 }
 
-/* Title */
-
 .project-title {
-  margin: 0 0 12px 0 !important;
-
-  font-size: 1.5rem !important;
+  font-size: 1.45rem;
+  font-weight: 700;
   line-height: 1.25;
-
   color: #1e293b;
-  font-weight: 700 !important;
-
-  transition: color 0.2s ease;
+  margin-bottom: 12px;
 }
-
-.project-card:hover .project-title {
-  color: #2563eb;
-}
-
-/* Summary */
 
 .project-summary {
-  color: #475569;
-  line-height: 1.65;
-  margin-bottom: 20px;
-  flex-grow: 1;
-}
-
-/* Link */
-
-.project-link-text {
-  display: inline-flex;
-  align-items: center;
-
-  color: #2563eb;
-
-  font-weight: 600;
   font-size: 0.95rem;
+  line-height: 1.65;
+  color: #475569;
+  flex-grow: 1;
+  margin-bottom: 18px;
 }
 
-.project-link-text svg {
-  margin-left: 6px;
-  transition: transform 0.2s ease;
+.project-link {
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
 }
 
-.project-card:hover .project-link-text svg {
-  transform: translateX(4px);
+.project-link:hover {
+  color: #1d4ed8;
 }
 
 /* Mobile */
-
 @media (max-width: 768px) {
-
-  .projects-list {
+  .projects-grid {
     grid-template-columns: 1fr;
   }
 
-  .project-title {
-    font-size: 1.3rem !important;
+  .project-image {
+    height: 200px;
   }
-
 }
-
 </style>
 
-<div class="projects-list">
+<div class="projects-grid">
 
+  <!-- Project 1 -->
   <a href="/projects/nozzle-analysis/" class="project-card">
-
-    <div class="project-img-wrapper">
-      <img
-        src="/assets/images/NozzleThumb.jpg"
-        alt="Nozzle Analysis"
-        class="project-img">
+    <div class="project-image">
+      <img src="/assets/images/NozzleThumb.jpg" alt="Compressible Flow Nozzle Analysis">
     </div>
 
     <div class="project-content">
+      <div class="project-date">Apr 2026</div>
 
-      <div class="project-timeline">
-        Apr 2026
+      <div class="project-title">
+        Compressible Flow Nozzle Analysis
       </div>
 
-      <h2 class="project-title">
-        Compressible Flow Nozzle Analysis
-      </h2>
+      <div class="project-summary">
+        Developed a MATLAB computational flow-classification tool for converging-diverging nozzles, generating pressure distributions and identifying internal shock locations across multiple operating regimes.
+      </div>
 
-      <p class="project-summary">
-        Coded a custom computational flow classification program that accurately models converging-diverging nozzle environments, calculating pressure maps and identifying internal shock locations.
-      </p>
-
-      <span class="project-link-text">
-        View Project Details
-
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
-          <path d="M6 12L10 8L6 4"
-                stroke="#2563eb"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"/>
-        </svg>
-
-      </span>
-
+      <div class="project-link">
+        View Project →
+      </div>
     </div>
-
   </a>
 
+  <!-- Project 2 -->
   <a href="/projects/orbit-determination/" class="project-card">
-
-    <div class="project-img-wrapper">
-      <img
-        src="/assets/images/orbit-thumb.jpg"
-        alt="Orbit Determination"
-        class="project-img">
+    <div class="project-image">
+      <img src="/assets/images/orbit-thumb.jpg" alt="Orbit Determination">
     </div>
 
     <div class="project-content">
+      <div class="project-date">Mar 2026 – Apr 2026</div>
 
-      <div class="project-timeline">
-        Mar 2026 – Apr 2026
+      <div class="project-title">
+        Orbit Determination Using the Gauss Method
       </div>
 
-      <h2 class="project-title">
-        Orbit Determination Analysis (Gauss Method)
-      </h2>
+      <div class="project-summary">
+        Created MATLAB scripts implementing the Gauss Method to determine orbital elements from observational tracking data and analyze spacecraft trajectories.
+      </div>
 
-      <p class="project-summary">
-        Developed MATLAB scripts implementing the Gauss Method to determine orbital elements directly from observational tracking measurements.
-      </p>
+      <div class="project-link">
+        View Project →
+      </div>
+    </div>
+  </a>
 
-      <span class="project-link-text">
-        View Project Details
-
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
-          <path d="M6 12L10 8L6 4"
-                stroke="#2563eb"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"/>
-        </svg>
-
-      </span>
-
+  <!-- Project 3 -->
+  <a href="#" class="project-card">
+    <div class="project-image">
+      <img src="/assets/images/cad-aircraft-thumb.jpg" alt="CAD Aircraft Design">
     </div>
 
+    <div class="project-content">
+      <div class="project-date">2025</div>
+
+      <div class="project-title">
+        CAD Aircraft Design Project
+      </div>
+
+      <div class="project-summary">
+        Designed and modeled a LEGO-inspired aircraft using computer-aided design principles, developing proficiency in 3D modeling, assemblies, engineering drawings, and design iteration.
+      </div>
+
+      <div class="project-link">
+        View Project →
+      </div>
+    </div>
   </a>
 
 </div>

@@ -129,7 +129,7 @@ author_profile: true
 
   <a href="/projects/nozzle-analysis/" class="project-card">
     <div class="project-img-wrapper">
-      <img src="/assets/images/nozzle-thumb.jpg" alt="Nozzle Analysis" class="project-img">
+      <img src="/assets/images/NozzleThumb.jpg" alt="Nozzle Analysis" class="project-img">
     </div>
     <div class="project-content">
       <div class="project-timeline">Apr 2026</div>

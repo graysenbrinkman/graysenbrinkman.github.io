@@ -6,28 +6,23 @@ author_profile: true
 ---
 
 <style>
-  /* OVERRIDE THEME DEFAULTS: 
-     Remove the invisible right-side padding reserved for the TOC */
-  .page {
-    padding-right: 0 !important;
-  }
-
-  /* Force the content area to extend fully to the right edge */
+  /* 1. Layout Control: Center the content and limit width */
   .page__content {
-    width: 100% !important;
-    padding-right: 0 !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
-  /* Dynamic Project Card Grid */
   .projects-list {
     display: flex;
     flex-direction: column;
     gap: 24px;
     margin-top: 15px;
     width: 100%;
+    max-width: 900px;
   }
 
-  /* Wide Rectangular Project Card stretching to full width */
+  /* 2. Project Card Design */
   .project-card {
     display: flex;
     width: 100%;
@@ -41,18 +36,17 @@ author_profile: true
     transition: all 0.25s ease-in-out;
   }
 
-  /* Card Hover Animation */
   .project-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     border-color: #cbd5e1;
   }
 
-  /* Preview Image Sizing (proportional to the wider card) */
+  /* 3. Image & Content Balance (35% Image / 65% Text) */
   .project-img-wrapper {
-    width: 28%;
-    min-width: 180px;
-    background: #f8fafc;
+    width: 35%;
+    min-width: 220px;
+    background: #f1f5f9;
     position: relative;
     overflow: hidden;
   }
@@ -66,18 +60,18 @@ author_profile: true
   }
 
   .project-card:hover .project-img {
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
 
-  /* Text Layout inside the Card */
   .project-content {
     padding: 24px;
-    width: 72%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
+  /* 4. Typography & Elements */
   .project-title {
     margin: 0 0 6px 0 !important;
     font-size: 1.4rem !important;
@@ -115,19 +109,19 @@ author_profile: true
   }
 
   .project-link-text svg {
-    margin-left: 4px;
+    margin-left: 6px;
     transition: transform 0.2s ease;
   }
 
   .project-card:hover .project-link-text svg {
-    transform: translateX(3px);
+    transform: translateX(4px);
   }
 
-  /* Smooth mobile transitions when screen sizes shrink */
-  @media (max-width: 640px) {
+  /* 5. Mobile Responsiveness */
+  @media (max-width: 768px) {
     .project-card { flex-direction: column; }
-    .project-img-wrapper { width: 100%; height: 160px; }
-    .project-content { width: 100%; padding: 15px; }
+    .project-img-wrapper { width: 100%; height: 200px; }
+    .project-content { width: 100%; padding: 20px; }
   }
 </style>
 
@@ -135,7 +129,7 @@ author_profile: true
 
   <a href="/projects/nozzle-analysis/" class="project-card">
     <div class="project-img-wrapper">
-      <img src="/assets/images/nozzle-thumb.jpg" alt="Nozzle Analysis Project" class="project-img" onerror="this.src='https://placehold.co/600x400/f1f5f9/64748b?text=Nozzle+Analysis'">
+      <img src="/assets/images/nozzle-thumb.jpg" alt="Nozzle Analysis" class="project-img">
     </div>
     <div class="project-content">
       <div class="project-timeline">Apr 2026</div>
@@ -150,11 +144,11 @@ author_profile: true
 
   <a href="/projects/orbit-determination/" class="project-card">
     <div class="project-img-wrapper">
-      <img src="/assets/images/orbit-thumb.jpg" alt="Orbit Determination Project" class="project-img" onerror="this.src='https://placehold.co/600x400/f1f5f9/64748b?text=Orbit+Determination'">
+      <img src="/assets/images/orbit-thumb.jpg" alt="Orbit Determination" class="project-img">
     </div>
     <div class="project-content">
       <div class="project-timeline">Mar 2026 – Apr 2026</div>
-      <h2 class="project-title">Orbit Determination Analysis (Gauss Method)</h2>
+      <h2 class="project-title">Orbit Determination (Gauss Method)</h2>
       <p class="project-summary">Developed complex MATLAB scripts utilizing the Gauss Method to extract and process clean orbital elements directly from raw observational tracking data inputs.</p>
       <span class="project-link-text">
         View Project Details 

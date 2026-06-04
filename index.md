@@ -65,16 +65,15 @@ permalink: /
   <img src="/assets/images/airplanebanner.jpg" alt="Aircraft Banner">
 
   <div class="hero-text">
-    <h1>Graysen Brinkman</h1>
-    <p>Aerospace Engineering Student</p>
+    <h1>Aerospace Engineering Portfolio</h1>
   </div>
 </div>
 
 ## About Me
 
-I am an Aerospace Engineering student at Embry-Riddle Aeronautical University pursuing a minor in Applied Mathematics. My interests span both aeronautics and astronautics, with a particular focus on flight mechanics, orbital mechanics, aerospace systems, and engineering design.
+I am an Aerospace Engineering student at Embry-Riddle Aeronautical University pursuing a Bachelor of Science in Aerospace Engineering with a concentration in Aeronautics and a minor in Applied Mathematics.
 
-This portfolio highlights my academic projects, research experiences, technical skills, and professional development as I continue working toward a career in the aerospace industry.
+This portfolio showcases my academic projects, research experiences, technical skills, and professional development as I work toward a career in the aerospace industry.
 
 <div class="card-container">
 
@@ -83,10 +82,10 @@ This portfolio highlights my academic projects, research experiences, technical 
 
     <ul>
       <li>Flight Mechanics</li>
-      <li>Orbital Mechanics</li>
+      <li>Wind Tunnel Testing</li>
       <li>Aerospace Systems</li>
       <li>Aircraft Design</li>
-      <li>Space Mission Design</li>
+      <li>Jet Propulsion</li>
     </ul>
   </div>
 
@@ -97,14 +96,14 @@ This portfolio highlights my academic projects, research experiences, technical 
 
     <ul>
       <li>MATLAB</li>
+      <li>ROS2</li>
       <li>Python</li>
     </ul>
 
     <strong>Engineering</strong>
 
     <ul>
-      <li>SolidWorks</li>
-      <li>ANSYS</li>
+      <li>CATIA</li>
     </ul>
 
     <strong>Technical Areas</strong>

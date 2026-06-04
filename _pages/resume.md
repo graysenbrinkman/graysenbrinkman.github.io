@@ -57,10 +57,10 @@ classes: wide
   .pdf-wrapper {
     width: 100%;
     aspect-ratio: 8.5 / 11;
-    border: 1px solid #d1d5db; 
     border-radius: 8px; 
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
-    overflow: hidden; /* Hides any bleeding edges */
+    /* Softened the shadow and removed the border for a cleaner look */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08); 
+    overflow: hidden; 
     background: #ffffff;
   }
 

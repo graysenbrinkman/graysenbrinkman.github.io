@@ -71,7 +71,7 @@ permalink: /
 
 ## About Me
 
-I am an Aerospace Engineering student at Embry-Riddle Aeronautical University pursuing a Bachelor of Science in Aerospace Engineering with a concentration in Aeronautics and a minor in Applied Mathematics.
+I am a third-year Aerospace Engineering student at Embry-Riddle Aeronautical University pursuing a Bachelor of Science in Aerospace Engineering with a concentration in Aeronautics and a minor in Applied Mathematics.
 
 This portfolio showcases my academic projects, research experiences, technical skills, and professional development as I work toward a career in the aerospace industry.
 

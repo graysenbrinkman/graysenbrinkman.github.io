@@ -7,19 +7,21 @@ author_profile: true
 
 <style>
 
-.page__content {
-  width: 100%;
-}
+/* =========================
+   PROJECT GRID
+========================= */
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  grid-template-columns: repeat(2, minmax(400px, 1fr));
+  gap: 28px;
   margin-top: 20px;
-  max-width: 1150px;
+  max-width: 1050px;
 }
 
-/* Card */
+/* =========================
+   PROJECT CARDS
+========================= */
 
 .project-card {
   display: flex;
@@ -30,97 +32,125 @@ author_profile: true
   overflow: hidden;
   text-decoration: none !important;
   color: inherit !important;
+
   transition: all 0.25s ease;
-  box-shadow: 0 2px 6px rgba(0,0,0,.04);
+
+  box-shadow: 0 2px 8px rgba(0,0,0,.04);
 }
 
 .project-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 10px 24px rgba(0,0,0,.08);
+
   border-color: #cbd5e1;
+
+  box-shadow:
+    0 10px 24px rgba(0,0,0,.08);
 }
 
-/* Image */
+/* =========================
+   IMAGES
+========================= */
 
 .project-img-wrapper {
   width: 100%;
   aspect-ratio: 16 / 9;
+
   overflow: hidden;
+
   background: #e5e7eb;
 }
 
 .project-img {
   width: 100%;
   height: 100%;
+
   object-fit: cover;
+
   display: block;
+
   transition: transform .3s ease;
 }
 
 .project-card:hover .project-img {
-  transform: scale(1.04);
+  transform: scale(1.03);
 }
 
-/* Content */
+/* =========================
+   CONTENT
+========================= */
 
 .project-content {
-  padding: 18px;
+  padding: 22px;
 }
 
 .project-timeline {
-  font-size: .75rem;
-  text-transform: uppercase;
+  font-size: .8rem;
   letter-spacing: .08em;
+  text-transform: uppercase;
+
   color: #64748b;
+
   margin-bottom: 10px;
 }
 
 .project-title {
-  font-size: 1.35rem;
-  line-height: 1.25;
-  margin: 0 0 12px 0 !important;
+  margin: 0 0 14px 0 !important;
+
+  font-size: 2rem !important;
+  line-height: 1.2;
+
   color: #1e293b;
 }
 
 .project-summary {
-  font-size: .95rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.7;
+
   color: #475569;
+
   margin-bottom: 16px;
 }
 
 .project-link {
-  font-size: .9rem;
+  font-size: .95rem;
   font-weight: 600;
+
   color: #2563eb;
 }
 
-/* Tablet */
+/* =========================
+   RESPONSIVE
+========================= */
 
 @media (max-width: 1100px) {
-  .projects-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 
-/* Mobile */
-
-@media (max-width: 700px) {
   .projects-grid {
     grid-template-columns: 1fr;
   }
+
+}
+
+@media (max-width: 700px) {
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
 }
 
 </style>
 
 <div class="projects-grid">
 
+  <!-- PROJECT 1 -->
+
   <a href="/projects/nozzle-analysis/" class="project-card">
 
     <div class="project-img-wrapper">
-      <img src="/assets/images/NozzleThumb.jpg"
-           alt="Compressible Flow Nozzle Analysis"
-           class="project-img">
+      <img
+        src="/assets/images/NozzleThumb.jpg"
+        alt="Nozzle Flow Analysis"
+        class="project-img">
     </div>
 
     <div class="project-content">
@@ -130,7 +160,7 @@ author_profile: true
       </div>
 
       <h2 class="project-title">
-        Compressible Flow Nozzle Analysis
+        Nozzle Flow Analysis
       </h2>
 
       <div class="project-summary">
@@ -145,12 +175,15 @@ author_profile: true
 
   </a>
 
+  <!-- PROJECT 2 -->
+
   <a href="/projects/orbit-determination/" class="project-card">
 
     <div class="project-img-wrapper">
-      <img src="/assets/images/orbit-thumb.jpg"
-           alt="Orbit Determination"
-           class="project-img">
+      <img
+        src="/assets/images/orbit-thumb.jpg"
+        alt="Orbit Determination"
+        class="project-img">
     </div>
 
     <div class="project-content">
@@ -160,7 +193,7 @@ author_profile: true
       </div>
 
       <h2 class="project-title">
-        Orbit Determination Analysis
+        Orbit Determination
       </h2>
 
       <div class="project-summary">
@@ -175,12 +208,15 @@ author_profile: true
 
   </a>
 
-  <a href="/projects/cad-airplane/" class="project-card">
+  <!-- PROJECT 3 -->
+
+  <a href="/projects/cad-aircraft/" class="project-card">
 
     <div class="project-img-wrapper">
-      <img src="/assets/images/cad-thumb.jpg"
-           alt="CAD Aircraft Project"
-           class="project-img">
+      <img
+        src="/assets/images/cad-thumb.jpg"
+        alt="CAD Aircraft Design"
+        class="project-img">
     </div>
 
     <div class="project-content">
@@ -190,11 +226,11 @@ author_profile: true
       </div>
 
       <h2 class="project-title">
-        CAD Aircraft Design Project
+        CAD Aircraft Design
       </h2>
 
       <div class="project-summary">
-        Designed and modeled a LEGO-inspired aircraft using CATIA, applying fundamental principles of aircraft geometry, assembly design, and technical drafting.
+        Designed and modeled a LEGO-inspired aircraft using CATIA, applying principles of aircraft geometry, assembly design, and technical drafting.
       </div>
 
       <div class="project-link">

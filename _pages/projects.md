@@ -6,15 +6,21 @@ author_profile: true
 ---
 
 <style>
-/* Main Container */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 24px;
-  margin-top: 20px;
+
+.page__content {
+  width: 100%;
 }
 
-/* Project Cards */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 20px;
+  max-width: 1150px;
+}
+
+/* Card */
+
 .project-card {
   display: flex;
   flex-direction: column;
@@ -25,157 +31,178 @@ author_profile: true
   text-decoration: none !important;
   color: inherit !important;
   transition: all 0.25s ease;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 6px rgba(0,0,0,.04);
 }
 
 .project-card:hover {
   transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0,0,0,.08);
   border-color: #cbd5e1;
-  box-shadow: 0 12px 24px rgba(0,0,0,0.08);
 }
 
-.project-image {
+/* Image */
+
+.project-img-wrapper {
   width: 100%;
-  height: 220px;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
-  background: #e2e8f0;
+  background: #e5e7eb;
 }
 
-.project-image img {
+.project-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.3s ease;
+  transition: transform .3s ease;
 }
 
-.project-card:hover .project-image img {
+.project-card:hover .project-img {
   transform: scale(1.04);
 }
 
 /* Content */
+
 .project-content {
-  padding: 22px;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
+  padding: 18px;
 }
 
-.project-date {
-  font-size: 0.8rem;
+.project-timeline {
+  font-size: .75rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: .08em;
   color: #64748b;
   margin-bottom: 10px;
 }
 
 .project-title {
-  font-size: 1.45rem;
-  font-weight: 700;
+  font-size: 1.35rem;
   line-height: 1.25;
+  margin: 0 0 12px 0 !important;
   color: #1e293b;
-  margin-bottom: 12px;
 }
 
 .project-summary {
-  font-size: 0.95rem;
-  line-height: 1.65;
+  font-size: .95rem;
+  line-height: 1.6;
   color: #475569;
-  flex-grow: 1;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .project-link {
+  font-size: .9rem;
   font-weight: 600;
   color: #2563eb;
-  text-decoration: none;
 }
 
-.project-link:hover {
-  color: #1d4ed8;
+/* Tablet */
+
+@media (max-width: 1100px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Mobile */
-@media (max-width: 768px) {
+
+@media (max-width: 700px) {
   .projects-grid {
     grid-template-columns: 1fr;
   }
-
-  .project-image {
-    height: 200px;
-  }
 }
+
 </style>
 
 <div class="projects-grid">
 
-  <!-- Project 1 -->
   <a href="/projects/nozzle-analysis/" class="project-card">
-    <div class="project-image">
-      <img src="/assets/images/NozzleThumb.jpg" alt="Compressible Flow Nozzle Analysis">
+
+    <div class="project-img-wrapper">
+      <img src="/assets/images/NozzleThumb.jpg"
+           alt="Compressible Flow Nozzle Analysis"
+           class="project-img">
     </div>
 
     <div class="project-content">
-      <div class="project-date">Apr 2026</div>
 
-      <div class="project-title">
+      <div class="project-timeline">
+        Apr 2026
+      </div>
+
+      <h2 class="project-title">
         Compressible Flow Nozzle Analysis
-      </div>
+      </h2>
 
       <div class="project-summary">
-        Developed a MATLAB computational flow-classification tool for converging-diverging nozzles, generating pressure distributions and identifying internal shock locations across multiple operating regimes.
+        Developed a computational flow-classification tool for converging-diverging nozzle environments, generating pressure distributions and identifying internal shock locations.
       </div>
 
       <div class="project-link">
         View Project →
       </div>
+
     </div>
+
   </a>
 
-  <!-- Project 2 -->
   <a href="/projects/orbit-determination/" class="project-card">
-    <div class="project-image">
-      <img src="/assets/images/orbit-thumb.jpg" alt="Orbit Determination">
+
+    <div class="project-img-wrapper">
+      <img src="/assets/images/orbit-thumb.jpg"
+           alt="Orbit Determination"
+           class="project-img">
     </div>
 
     <div class="project-content">
-      <div class="project-date">Mar 2026 – Apr 2026</div>
 
-      <div class="project-title">
-        Orbit Determination Using the Gauss Method
+      <div class="project-timeline">
+        Mar 2026 – Apr 2026
       </div>
 
+      <h2 class="project-title">
+        Orbit Determination Analysis
+      </h2>
+
       <div class="project-summary">
-        Created MATLAB scripts implementing the Gauss Method to determine orbital elements from observational tracking data and analyze spacecraft trajectories.
+        Utilized MATLAB and the Gauss Method to extract orbital elements from observational tracking data and analyze spacecraft trajectories.
       </div>
 
       <div class="project-link">
         View Project →
       </div>
+
     </div>
+
   </a>
 
-  <!-- Project 3 -->
-  <a href="#" class="project-card">
-    <div class="project-image">
-      <img src="/assets/images/cad-aircraft-thumb.jpg" alt="CAD Aircraft Design">
+  <a href="/projects/cad-airplane/" class="project-card">
+
+    <div class="project-img-wrapper">
+      <img src="/assets/images/cad-thumb.jpg"
+           alt="CAD Aircraft Project"
+           class="project-img">
     </div>
 
     <div class="project-content">
-      <div class="project-date">2025</div>
 
-      <div class="project-title">
-        CAD Aircraft Design Project
+      <div class="project-timeline">
+        2025
       </div>
 
+      <h2 class="project-title">
+        CAD Aircraft Design Project
+      </h2>
+
       <div class="project-summary">
-        Designed and modeled a LEGO-inspired aircraft using computer-aided design principles, developing proficiency in 3D modeling, assemblies, engineering drawings, and design iteration.
+        Designed and modeled a LEGO-inspired aircraft using CATIA, applying fundamental principles of aircraft geometry, assembly design, and technical drafting.
       </div>
 
       <div class="project-link">
         View Project →
       </div>
+
     </div>
+
   </a>
 
 </div>

@@ -185,10 +185,9 @@ permalink: /
   <h2>About Me</h2>
 
   <p>
-    I am a second-year Aerospace Engineering student at Embry-Riddle
-    Aeronautical University pursuing a Bachelor of Science in Aerospace
-    Engineering with a concentration in Aeronautics and a minor in Applied
-    Mathematics.
+    I am an Aerospace Engineering student at Embry-Riddle Aeronautical University
+    pursuing a Bachelor of Science in Aerospace Engineering with a concentration
+    in Aeronautics and a minor in Applied Mathematics.
   </p>
 
   <p>
@@ -201,18 +200,18 @@ permalink: /
 <div class="stats-row">
 
   <div class="stat-card">
-    <h3>Aerospace Engineering</h3>
-    <p>B.S. Candidate</p>
-  </div>
-
-  <div class="stat-card">
-    <h3>Applied Mathematics</h3>
-    <p>Minor</p>
+    <h3>GPA</h3>
+    <p>4.0 / 4.0</p>
   </div>
 
   <div class="stat-card">
     <h3>Expected Graduation</h3>
     <p>Winter 2027</p>
+  </div>
+
+  <div class="stat-card">
+    <h3>Focus Areas</h3>
+    <p>Aeronautics & Applied Mathematics</p>
   </div>
 
 </div>
@@ -244,7 +243,7 @@ permalink: /
 
 ## Featured Work
 
-Explore engineering projects involving compressible flow nozzle analysis, orbit determination utilizing the Gauss Method, and the AIRHOUND UAV integration project.
+Explore engineering projects involving compressible flow nozzle analysis, orbit determination utilizing the Gauss Method, and UAV systems integration.
 
 <br>
 

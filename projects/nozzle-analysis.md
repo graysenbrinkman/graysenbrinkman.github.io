@@ -5,5 +5,5 @@ permalink: /projects/nozzle-analysis/
 author_profile: true
 ---
 
-# Compressible Flow Nozzle Analysis
+
 

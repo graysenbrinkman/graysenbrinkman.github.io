@@ -146,98 +146,99 @@ author_profile: true
 
   <a href="/projects/nozzle-analysis/" class="project-card">
 
-    <div class="project-img-wrapper">
-      <img
-        src="/assets/images/NozzleThumb.jpg"
-        alt="Nozzle Flow Analysis"
-        class="project-img">
+  <div class="project-img-wrapper">
+    <img
+      src="/assets/images/NozzleThumb.jpg"
+      alt="Nozzle Flow Analysis"
+      class="project-img">
+  </div>
+
+  <div class="project-content">
+
+    <div class="project-timeline">
+      Apr 2026
     </div>
 
-    <div class="project-content">
+    <h2 class="project-title">
+      Nozzle Flow Analysis
+    </h2>
 
-      <div class="project-timeline">
-        Apr 2026
-      </div>
-
-      <h2 class="project-title">
-        Nozzle Flow Analysis
-      </h2>
-
-      <div class="project-summary">
-        Developed a Converging-Diverging nozzle flow classification tool to classify flow and identify potential shock behavior.
-      </div>
-
-      <div class="project-link">
-        View Project →
-      </div>
-
+    <div class="project-summary">
+      Developed a MATLAB tool to classify converging-diverging nozzle flow regimes and identify potential shock behavior.
     </div>
 
-  </a>
+    <div class="project-link">
+      View Project →
+    </div>
+
+  </div>
+
+</a>
 
   <!-- PROJECT 2 -->
 
-  <a href="/projects/orbit-determination/" class="project-card">
+ <a href="/projects/orbit-determination/" class="project-card">
 
-    <div class="project-img-wrapper">
-      <img
-        src="/assets/images/orbit-thumb.jpg"
-        alt="Orbit Determination"
-        class="project-img">
+  <div class="project-img-wrapper">
+    <img
+      src="/assets/images/orbit-thumb.jpg"
+      alt="Orbit Determination"
+      class="project-img">
+  </div>
+
+  <div class="project-content">
+
+    <div class="project-timeline">
+      Mar 2026 – Apr 2026
     </div>
 
-    <div class="project-content">
+    <h2 class="project-title">
+      Orbit Determination
+    </h2>
 
-      <div class="project-timeline">
-        Mar 2026 – Apr 2026
-      </div>
-
-      <h2 class="project-title">
-        Orbit Determination
-      </h2>
-
-      <div class="project-summary">
-       Utilized the Gauss Method in MATLAB to extract orbital elements from observational tracking data and write LaTeX analysis report.
-
-      <div class="project-link">
-        View Project →
-      </div>
-
+    <div class="project-summary">
+      Utilized the Gauss Method in MATLAB to extract orbital elements from observational tracking data and document the analysis in LaTeX.
     </div>
 
-  </a>
+    <div class="project-link">
+      View Project →
+    </div>
+
+  </div>
+
+</a>
 
   <!-- PROJECT 3 -->
 
-  <a href="/projects/cad-aircraft/" class="project-card">
+ <a href="/projects/cad-aircraft/" class="project-card">
 
-    <div class="project-img-wrapper">
-      <img
-        src="/assets/images/cad-thumb.jpg"
-        alt="CAD Aircraft Design"
-        class="project-img">
+  <div class="project-img-wrapper">
+    <img
+      src="/assets/images/cad-thumb.jpg"
+      alt="CAD Aircraft Design"
+      class="project-img">
+  </div>
+
+  <div class="project-content">
+
+    <div class="project-timeline">
+      2025
     </div>
 
-    <div class="project-content">
+    <h2 class="project-title">
+      CAD Aircraft Design
+    </h2>
 
-      <div class="project-timeline">
-        2025
-      </div>
-
-      <h2 class="project-title">
-        CAD Aircraft Design
-      </h2>
-
-      <div class="project-summary">
-       Modeled, drafted, and rendered a real LEGO airplane set and made modifications using esisting LEGO pieces.
-      </div>
-
-      <div class="project-link">
-        View Project →
-      </div>
-
+    <div class="project-summary">
+      Modeled, drafted, and rendered a LEGO aircraft in CATIA while implementing design modifications using existing LEGO components.
     </div>
 
-  </a>
+    <div class="project-link">
+      View Project →
+    </div>
+
+  </div>
+
+</a>
 
 </div>

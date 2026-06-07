@@ -96,7 +96,7 @@ author_profile: true
 .project-title {
   margin: 0 0 14px 0 !important;
 
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
   line-height: 1.2;
 
   color: #1e293b;

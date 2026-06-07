@@ -53,7 +53,7 @@ author_profile: true
 
 .project-img-wrapper {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 2 / 1;
 
   overflow: hidden;
 
@@ -80,7 +80,7 @@ author_profile: true
 ========================= */
 
 .project-content {
-  padding: 22px;
+  padding: 20px;
 }
 
 .project-timeline {
@@ -104,7 +104,7 @@ author_profile: true
 
 .project-summary {
   font-size: 1rem;
-  line-height: 1.7;
+  line-height: 1.15;
 
   color: #475569;
 

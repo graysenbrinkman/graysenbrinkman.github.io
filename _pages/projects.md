@@ -164,7 +164,7 @@ author_profile: true
       </h2>
 
       <div class="project-summary">
-        Developed a computational flow-classification tool for converging-diverging nozzle environments, generating pressure distributions and identifying internal shock locations.
+        Developed a Converging-Diverging nozzle flow classification tool to classify flow and identify potential shock behavior.
       </div>
 
       <div class="project-link">
@@ -197,8 +197,7 @@ author_profile: true
       </h2>
 
       <div class="project-summary">
-        Utilized MATLAB and the Gauss Method to extract orbital elements from observational tracking data and analyze spacecraft trajectories.
-      </div>
+       Utilized the Gauss Method in MATLAB to extract orbital elements from observational tracking data and write LaTeX analysis report.
 
       <div class="project-link">
         View Project →
@@ -230,7 +229,7 @@ author_profile: true
       </h2>
 
       <div class="project-summary">
-        Designed and modeled a LEGO-inspired aircraft using CATIA, applying principles of aircraft geometry, assembly design, and technical drafting.
+       Modeled, drafted, and rendered a real LEGO airplane set and made modifications using esisting LEGO pieces.
       </div>
 
       <div class="project-link">

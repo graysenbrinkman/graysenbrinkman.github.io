@@ -203,37 +203,37 @@ The developed MATLAB program successfully classified all seven operating conditi
 
   <figure>
     <figcaption><strong>Case 1.</strong> Not Choked Flow</figcaption>
-    <img src="/assets/images/nozzle-analysis/case1.jpg" alt="Case 1">
+    <img src="/assets/images/nozzle-analysis/Nozzle1.jpg" alt="Case 1">
   </figure>
 
   <figure>
     <figcaption><strong>Case 2.</strong> Choked at the Throat</figcaption>
-    <img src="/assets/images/nozzle-analysis/case2.jpg" alt="Case 2">
+    <img src="/assets/images/nozzle-analysis/Nozzle2.jpg" alt="Case 2">
   </figure>
 
   <figure>
     <figcaption><strong>Case 3.</strong> Normal Shock in the Diverging Section</figcaption>
-    <img src="/assets/images/nozzle-analysis/case3.jpg" alt="Case 3">
+    <img src="/assets/images/nozzle-analysis/Nozzle3.jpg" alt="Case 3">
   </figure>
 
   <figure>
     <figcaption><strong>Case 4.</strong> Normal Shock at the Exit Plane</figcaption>
-    <img src="/assets/images/nozzle-analysis/case4.jpg" alt="Case 4">
+    <img src="/assets/images/nozzle-analysis/Nozzle4.jpg" alt="Case 4">
   </figure>
 
   <figure>
     <figcaption><strong>Case 5.</strong> Overexpanded Flow</figcaption>
-    <img src="/assets/images/nozzle-analysis/case5.jpg" alt="Case 5">
+    <img src="/assets/images/nozzle-analysis/Nozzle5.jpg" alt="Case 5">
   </figure>
 
   <figure>
     <figcaption><strong>Case 6.</strong> Perfectly Expanded Flow</figcaption>
-    <img src="/assets/images/nozzle-analysis/case6.jpg" alt="Case 6">
+    <img src="/assets/images/nozzle-analysis/Nozzle6.jpg" alt="Case 6">
   </figure>
 
   <figure>
     <figcaption><strong>Case 7.</strong> Underexpanded Flow</figcaption>
-    <img src="/assets/images/nozzle-analysis/case7.jpg" alt="Case 7">
+    <img src="/assets/images/nozzle-analysis/Nozzle7.jpg" alt="Case 7">
   </figure>
 
 </div>

@@ -6,15 +6,37 @@ author_profile: false
 ---
 
 <style>
+
+/* Remove default theme spacing */
+.page {
+  padding-top: 0 !important;
+}
+
+.page__inner-wrap {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.page__content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.initial-content {
+  padding-top: 0 !important;
+}
+
+/* Project layout */
+
 .project-wrap {
   max-width: 980px;
-  margin: 1.5rem auto 0;
+  margin: 0 auto;
   padding: 0 1rem;
 }
 
 .project-hero {
   width: 100%;
-  margin: 0 0 1.1rem 0;
+  margin: 0 0 1rem 0;
 }
 
 .project-hero img {
@@ -70,9 +92,9 @@ author_profile: false
 }
 
 @media (max-width: 768px) {
+
   .project-wrap {
     padding: 0 0.75rem;
-    margin-top: 1rem;
   }
 
   .project-title {
@@ -82,7 +104,9 @@ author_profile: false
   .project-meta {
     margin-bottom: 1.1rem;
   }
+
 }
+
 </style>
 
 <div class="project-wrap">

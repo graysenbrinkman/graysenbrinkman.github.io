@@ -133,11 +133,11 @@ author_profile: false
 <div class="project-wrap">
 
   <div class="project-hero">
-    <img src="/assets/images/CAD-Airplane/airplanemodified.png" alt="Nozzle Flow Classification">
+    <img src="/assets/images/cad-airplane/airplanemodified.png" alt="Nozzle Flow Classification">
   </div>
 
   <h1 class="project-title">
-    Nozzle Flow Classification
+    CAD LEGO Airplane Model
   </h1>
 
   <div class="project-meta">

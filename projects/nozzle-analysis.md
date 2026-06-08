@@ -172,41 +172,68 @@ A MATLAB program was developed to classify flow within a converging-diverging no
 
 The developed MATLAB program successfully classified all seven operating conditions for the converging-diverging nozzle by varying the back pressure ratio. Representative outputs for each operating regime are shown below.
 
+<style>
+.result-gallery {
+  margin-top: 2rem;
+}
+
+.result-gallery figure {
+  margin: 0 0 2.75rem 0;
+}
+
+.result-gallery figcaption {
+  text-align: center;
+  margin-bottom: 0.75rem;
+  color: #334155;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.result-gallery img {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+</style>
+
 <div class="result-gallery">
 
   <figure>
-    <img src="/assets/images/nozzle-project/Nozzle1.jpg" alt="Case 1">
     <figcaption><strong>Case 1.</strong> Not Choked Flow</figcaption>
+    <img src="/assets/images/nozzle-analysis/case1.jpg" alt="Case 1">
   </figure>
 
   <figure>
-    <img src="/assets/images/nozzle-project/Nozzle2.jpg" alt="Case 2">
     <figcaption><strong>Case 2.</strong> Choked at the Throat</figcaption>
+    <img src="/assets/images/nozzle-analysis/case2.jpg" alt="Case 2">
   </figure>
 
   <figure>
-    <img src="/assets/images/nozzle-project/Nozzle3.jpg" alt="Case 3">
     <figcaption><strong>Case 3.</strong> Normal Shock in the Diverging Section</figcaption>
+    <img src="/assets/images/nozzle-analysis/case3.jpg" alt="Case 3">
   </figure>
 
   <figure>
-    <img src="/assets/images/nozzle-project/Nozzle4.jpg" alt="Case 4">
     <figcaption><strong>Case 4.</strong> Normal Shock at the Exit Plane</figcaption>
+    <img src="/assets/images/nozzle-analysis/case4.jpg" alt="Case 4">
   </figure>
 
   <figure>
-    <img src="/assets/images/nozzle-project/Nozzle5.jpg" alt="Case 5">
     <figcaption><strong>Case 5.</strong> Overexpanded Flow</figcaption>
+    <img src="/assets/images/nozzle-analysis/case5.jpg" alt="Case 5">
   </figure>
 
   <figure>
-    <img src="/assets/images/nozzle-project/Nozzle6.jpg" alt="Case 6">
     <figcaption><strong>Case 6.</strong> Perfectly Expanded Flow</figcaption>
+    <img src="/assets/images/nozzle-analysis/case6.jpg" alt="Case 6">
   </figure>
 
   <figure>
-    <img src="/assets/images/nozzle-project/Nozzle7.jpg" alt="Case 7">
     <figcaption><strong>Case 7.</strong> Underexpanded Flow</figcaption>
+    <img src="/assets/images/nozzle-analysis/case7.jpg" alt="Case 7">
   </figure>
 
 </div>

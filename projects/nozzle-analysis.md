@@ -117,7 +117,7 @@ author_profile: false
 <div class="project-wrap">
 
   <div class="project-hero">
-    <img src="/assets/images/nozzle-project/NozzleThumb.jpg"
+    <img src="/assets/images/nozzle-project/Nozzle1.jpg"
          alt="Nozzle Flow Classification">
   </div>
 

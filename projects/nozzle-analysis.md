@@ -155,4 +155,78 @@ A MATLAB program was developed to classify flow within a converging-diverging no
 
 ## Results
 
+<p>
+The developed MATLAB program successfully classified all seven operating
+conditions for the converging-diverging nozzle by varying the back pressure
+ratio. Representative outputs for each regime are shown below.
+</p>
+
+<style>
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.result-card img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.result-caption {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+@media (max-width: 768px) {
+  .results-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="results-grid">
+
+  <div class="result-card">
+    <img src="/assets/images/nozzle-project/Nozzle1.jpg" alt="Case 1">
+    <div class="result-caption">Case 1 — Not Choked</div>
+  </div>
+
+  <div class="result-card">
+    <img src="/assets/images/nozzle-project/Nozzle2.jpg" alt="Case 2">
+    <div class="result-caption">Case 2 — Choked at Throat</div>
+  </div>
+
+  <div class="result-card">
+    <img src="/assets/images/nozzle-project/Nozzle3.jpg" alt="Case 3">
+    <div class="result-caption">Case 3 — Normal Shock in Diverging Section</div>
+  </div>
+
+  <div class="result-card">
+    <img src="/assets/images/nozzle-project/Nozzle4.jpg" alt="Case 4">
+    <div class="result-caption">Case 4 — Shock at Exit</div>
+  </div>
+
+  <div class="result-card">
+    <img src="/assets/images/nozzle-project/Nozzle5.jpg" alt="Case 5">
+    <div class="result-caption">Case 5 — Overexpanded Flow</div>
+  </div>
+
+  <div class="result-card">
+    <img src="/assets/images/nozzle-project/Nozzle6.jpg" alt="Case 6">
+    <div class="result-caption">Case 6 — Ideally Expanded Flow</div>
+  </div>
+
+  <div class="result-card">
+    <img src="/assets/images/nozzle-project/Nozzle7.jpg" alt="Case 7">
+    <div class="result-caption">Case 7 — Underexpanded Flow</div>
+  </div>
+
+</div>
+
 ## Key Takeaways

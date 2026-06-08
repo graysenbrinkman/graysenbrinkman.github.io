@@ -133,7 +133,7 @@ author_profile: false
 <div class="project-wrap">
 
   <div class="project-hero">
-    <img src="/assets/images/nozzle-project/NozzleThumb.jpg" alt="Nozzle Flow Classification">
+    <img src="/assets/images/nozzle-project/Nozzle4.jpg" alt="Nozzle Flow Classification">
   </div>
 
   <h1 class="project-title">
@@ -175,37 +175,37 @@ The developed MATLAB program successfully classified all seven operating conditi
 <div class="result-gallery">
 
   <figure>
-    <img src="/assets/images/nozzle-project/case1.jpg" alt="Case 1">
+    <img src="/assets/images/nozzle-project/Nozzle1.jpg" alt="Case 1">
     <figcaption><strong>Case 1.</strong> Not Choked Flow</figcaption>
   </figure>
 
   <figure>
-    <img src="/assets/images/nozzle-project/case2.jpg" alt="Case 2">
+    <img src="/assets/images/nozzle-project/Nozzle2.jpg" alt="Case 2">
     <figcaption><strong>Case 2.</strong> Choked at the Throat</figcaption>
   </figure>
 
   <figure>
-    <img src="/assets/images/nozzle-project/case3.jpg" alt="Case 3">
+    <img src="/assets/images/nozzle-project/Nozzle3.jpg" alt="Case 3">
     <figcaption><strong>Case 3.</strong> Normal Shock in the Diverging Section</figcaption>
   </figure>
 
   <figure>
-    <img src="/assets/images/nozzle-project/case4.jpg" alt="Case 4">
+    <img src="/assets/images/nozzle-project/Nozzle4.jpg" alt="Case 4">
     <figcaption><strong>Case 4.</strong> Normal Shock at the Exit Plane</figcaption>
   </figure>
 
   <figure>
-    <img src="/assets/images/nozzle-project/case5.jpg" alt="Case 5">
+    <img src="/assets/images/nozzle-project/Nozzle5.jpg" alt="Case 5">
     <figcaption><strong>Case 5.</strong> Overexpanded Flow</figcaption>
   </figure>
 
   <figure>
-    <img src="/assets/images/nozzle-project/case6.jpg" alt="Case 6">
+    <img src="/assets/images/nozzle-project/Nozzle6.jpg" alt="Case 6">
     <figcaption><strong>Case 6.</strong> Perfectly Expanded Flow</figcaption>
   </figure>
 
   <figure>
-    <img src="/assets/images/nozzle-project/case7.jpg" alt="Case 7">
+    <img src="/assets/images/nozzle-project/Nozzle7.jpg" alt="Case 7">
     <figcaption><strong>Case 7.</strong> Underexpanded Flow</figcaption>
   </figure>
 

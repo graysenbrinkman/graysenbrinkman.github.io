@@ -197,7 +197,7 @@ author_profile: true
 
   <div class="project-img-wrapper">
     <img
-      src="/assets/images/CAD-Airplane/airplanemodified.png"
+      src="/assets/images/cad-airplane/airplanemodified.png"
       alt="CAD Aircraft Design"
       class="project-img">
   </div>

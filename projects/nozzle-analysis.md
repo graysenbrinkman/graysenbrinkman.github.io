@@ -7,133 +7,130 @@ author_profile: false
 
 <style>
 
-.project-header-image {
+/* ===========================
+   HEADER IMAGE
+=========================== */
 
+.project-header-image {
   width: 100%;
+  max-width: 780px;
+  margin: 0 auto 2rem auto;
   border-radius: 14px;
   overflow: hidden;
-  margin-bottom: 1.75rem;
-
-  box-shadow:
-    0 3px 10px rgba(0,0,0,.08);
-
+  box-shadow: 0 3px 10px rgba(0,0,0,.08);
 }
 
 .project-header-image img {
-
-  display: block;
   width: 100%;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
 
+/* ===========================
+   TITLE BLOCK
+=========================== */
+
+.project-header {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .project-title {
-
   font-size: 2.3rem;
   font-weight: 700;
-
-  margin-bottom: .4rem;
-
   color: #111827;
-
+  margin: 0;
 }
 
 .project-meta {
-
+  margin-top: 0.5rem;
   color: #64748b;
-
-  font-size: .95rem;
-
-  margin-bottom: .75rem;
-
+  font-size: 0.95rem;
 }
 
+/* ===========================
+   SKILLS
+=========================== */
+
 .skill-tags {
-
   display: flex;
-
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 0.45rem;
 
-  gap: .6rem;
-
-  margin-bottom: 2rem;
-
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .skill {
-
   background: #eef2ff;
-
   color: #3730a3;
 
-  padding: .35rem .8rem;
+  padding: 0.3rem 0.75rem;
 
   border-radius: 999px;
 
-  font-size: .82rem;
-
+  font-size: 0.78rem;
   font-weight: 600;
-
 }
 
+/* ===========================
+   DIVIDER
+=========================== */
+
 .divider {
-
+  max-width: 780px;
   height: 1px;
-
   background: #e5e7eb;
-
-  margin-bottom: 2rem;
-
+  margin: 0 auto 2rem auto;
 }
 
 </style>
 
+<!-- ===================================== -->
 
 <div class="project-header-image">
 
-<img src="/assets/images/NozzleThumb.jpg"
-alt="Nozzle Flow Analysis">
+  <img
+    src="/assets/images/NozzleThumb.jpg"
+    alt="Nozzle Flow Classification">
 
 </div>
 
+<div class="project-header">
 
-<div class="project-title">
+  <h1 class="project-title">
+    Nozzle Flow Classification
+  </h1>
 
-Nozzle Flow Classification
+  <div class="project-meta">
+    April 2026
+  </div>
 
-</div>
+  <div class="skill-tags">
 
+    <span class="skill">MATLAB</span>
 
-<div class="project-meta">
+    <span class="skill">Compressible Aerodynamics</span>
 
-April 2026
+    <span class="skill">Flow Classification</span>
 
-</div>
+    <span class="skill">Numerical Methods</span>
 
+    <span class="skill">Data Visualization</span>
 
-<div class="skill-tags">
-
-<span class="skill">MATLAB</span>
-
-<span class="skill">Compressible Aerodynamics</span>
-
-<span class="skill">Flow Classification</span>
-
-<span class="skill">Numerical Methods</span>
-
-<span class="skill">Data Visualization</span>
+  </div>
 
 </div>
-
 
 <div class="divider"></div>
 
-
 <!--
+Start your write-up here.
 
-Begin writeup here.
-
-I would recommend sections like:
+Suggested sections:
 
 ## Overview
 
@@ -143,6 +140,6 @@ I would recommend sections like:
 
 ## Flow Regime Gallery
 
-and then show your seven cases below.
+(Insert your seven cases here.)
 
 -->

@@ -68,7 +68,7 @@ author_profile: false
 
 <div class="hero-banner">
 
-<img src="/assets/images/NozzleThumb.png" alt="Compressible Flow Nozzle Analysis">
+<img src="/assets/images/NozzleThumb.jpg" alt="Compressible Flow Nozzle Analysis">
 
 <div class="hero-text">
 

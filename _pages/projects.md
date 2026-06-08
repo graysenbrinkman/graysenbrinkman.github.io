@@ -32,19 +32,14 @@ author_profile: true
   overflow: hidden;
   text-decoration: none !important;
   color: inherit !important;
-
   transition: all 0.25s ease;
-
   box-shadow: 0 2px 8px rgba(0,0,0,.04);
 }
 
 .project-card:hover {
   transform: translateY(-4px);
-
   border-color: #cbd5e1;
-
-  box-shadow:
-    0 10px 24px rgba(0,0,0,.08);
+  box-shadow: 0 10px 24px rgba(0,0,0,.08);
 }
 
 /* =========================
@@ -54,21 +49,16 @@ author_profile: true
 .project-img-wrapper {
   width: 100%;
   aspect-ratio: 2 / 1;
-
   overflow: hidden;
-
   background: #e5e7eb;
 }
 
 .project-img {
   width: 100%;
   height: 100%;
-
   object-fit: cover;
-
   display: block;
-
-  transition: transform .3s ease;
+  transition: transform 0.3s ease;
 }
 
 .project-card:hover .project-img {
@@ -84,37 +74,30 @@ author_profile: true
 }
 
 .project-timeline {
-  font-size: .8rem;
-  letter-spacing: .08em;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-
   color: #64748b;
-
   margin-bottom: 10px;
 }
 
 .project-title {
   margin: 0 0 14px 0 !important;
-
   font-size: 1.5rem !important;
   line-height: 1.2;
-
   color: #1e293b;
 }
 
 .project-summary {
   font-size: 1rem;
-  line-height: 1.15;
-
+  line-height: 1.45;
   color: #475569;
-
   margin-bottom: 16px;
 }
 
 .project-link {
-  font-size: .95rem;
+  font-size: 0.95rem;
   font-weight: 600;
-
   color: #2563eb;
 }
 
@@ -146,99 +129,99 @@ author_profile: true
 
   <a href="/projects/nozzle-analysis/" class="project-card">
 
-  <div class="project-img-wrapper">
-    <img
-      src="/assets/images/nozzle-analysis/Nozzle4.jpg"
-      alt="Nozzle Flow Analysis"
-      class="project-img">
-  </div>
-
-  <div class="project-content">
-
-    <div class="project-timeline">
-      Apr 2026
+    <div class="project-img-wrapper">
+      <img
+        src="/assets/images/nozzle-analysis/Nozzle4.jpg"
+        alt="Nozzle Flow Analysis"
+        class="project-img">
     </div>
 
-    <h2 class="project-title">
-      Nozzle Flow Analysis
-    </h2>
+    <div class="project-content">
 
-    <div class="project-summary">
-      Developed a MATLAB tool to classify converging-diverging nozzle flow regimes and identify potential shock behavior.
+      <div class="project-timeline">
+        Apr 2026
+      </div>
+
+      <h2 class="project-title">
+        Nozzle Flow Analysis
+      </h2>
+
+      <div class="project-summary">
+        Developed a MATLAB tool to classify converging-diverging nozzle flow regimes and identify potential shock behavior.
+      </div>
+
+      <div class="project-link">
+        View Project →
+      </div>
+
     </div>
 
-    <div class="project-link">
-      View Project →
-    </div>
-
-  </div>
-
-</a>
+  </a>
 
   <!-- PROJECT 2 -->
 
- <a href="/projects/orbit-determination/" class="project-card">
+  <a href="/projects/orbit-determination/" class="project-card">
 
-  <div class="project-img-wrapper">
-    <img
-      src="/assets/images/orbit-thumb.jpg"
-      alt="Orbit Determination"
-      class="project-img">
-  </div>
-
-  <div class="project-content">
-
-    <div class="project-timeline">
-      Mar 2026 – Apr 2026
+    <div class="project-img-wrapper">
+      <img
+        src="/assets/images/orbit-thumb.jpg"
+        alt="Orbit Determination"
+        class="project-img">
     </div>
 
-    <h2 class="project-title">
-      Orbit Determination
-    </h2>
+    <div class="project-content">
 
-    <div class="project-summary">
-      Utilized the Gauss Method in MATLAB to extract orbital elements from observational tracking data and document the analysis in LaTeX.
+      <div class="project-timeline">
+        Mar 2026 – Apr 2026
+      </div>
+
+      <h2 class="project-title">
+        Orbit Determination
+      </h2>
+
+      <div class="project-summary">
+        Utilized the Gauss Method in MATLAB to extract orbital elements from observational tracking data and document the analysis in LaTeX.
+      </div>
+
+      <div class="project-link">
+        View Project →
+      </div>
+
     </div>
 
-    <div class="project-link">
-      View Project →
-    </div>
-
-  </div>
-
-</a>
+  </a>
 
   <!-- PROJECT 3 -->
 
- <a href="/projects/cad-aircraft/" class="project-card">
+  <a href="/projects/cad-aircraft/" class="project-card">
 
-  <div class="project-img-wrapper">
-    <img
-      src="/assets/images/cad-thumb.jpg"
-      alt="CAD Aircraft Design"
-      class="project-img">
-  </div>
-
-  <div class="project-content">
-
-    <div class="project-timeline">
-      2025
+    <div class="project-img-wrapper">
+      <img
+        src="/assets/images/cad-thumb.jpg"
+        alt="CAD Aircraft Design"
+        class="project-img">
     </div>
 
-    <h2 class="project-title">
-      CAD Aircraft Design
-    </h2>
+    <div class="project-content">
 
-    <div class="project-summary">
-      Modeled, drafted, and rendered a LEGO aircraft in CATIA while implementing design modifications using existing LEGO components.
+      <div class="project-timeline">
+        2025
+      </div>
+
+      <h2 class="project-title">
+        CAD Aircraft Design
+      </h2>
+
+      <div class="project-summary">
+        Modeled, drafted, and rendered a LEGO aircraft in CATIA while implementing design modifications using existing LEGO components.
+      </div>
+
+      <div class="project-link">
+        View Project →
+      </div>
+
     </div>
 
-    <div class="project-link">
-      View Project →
-    </div>
-
-  </div>
-
-</a>
+  </a>
 
 </div>

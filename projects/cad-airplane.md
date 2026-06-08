@@ -143,7 +143,7 @@ author_profile: false
   <div class="project-meta">
 
     <div class="project-date">
-      April 2026
+      January - April 2026
     </div>
 
     <div class="skill-tags">
@@ -162,16 +162,53 @@ author_profile: false
 
 ## Objective
 
-The goal of this project was to model a multi-part object in CATIA and make modifications to improve it in some way. 
+The objective of this project was to recreate a physical LEGO aircraft using CATIA by modeling small sections of the set, assembling the complete design, and implementing modifications to improve the original configuration while maintaining compatibility with existing LEGO elements.
 
-## Methodology
-Lego set was measured with a caliper and 3D modeled in CATIA, then parts were added and removed to improve the model. Parts were assembeled, colored, and rendered.
+## Design Process
+Similar LEGO components were grouped to streamline the modeling process and measured using digital calipers. These measurements were translated into individual CATIA parts using features such as pads, pockets, and patterns before being assembled into the complete aircraft. The grouping strategy allowed the model to be constructed from stacked plate assemblies, requiring interference checks and iterative adjustments to resolve overlapping geometry. Design modifications were constrained to existing LEGO components and included the addition of a nose wheel, a redesigned nose cone, and the removal of unnecessary studs to improve both appearance and the conceptual aerodynamic profile. The completed assembly was then documented through engineering drawings and rendered alongside the physical LEGO model for comparison.
 
 
 ## Results
-Images will go here
+
+<div class="result-gallery">
+
+  <figure>
+    <figcaption><strong>Original LEGO Aircraft</strong></figcaption>
+    <img src="/assets/images/CAD-Airplane/original-plane.png" alt="Original LEGO Aircraft">
+  </figure>
+
+  <figure>
+    <figcaption><strong>Modified CAD Assembly</strong></figcaption>
+    <img src="/assets/images/CAD-Airplane/airplanemodified.png" alt="Modified CAD Aircraft">
+  </figure>
+
+  <figure>
+    <figcaption><strong>Engineering Drawing</strong></figcaption>
+    <img src="/assets/images/CAD-Airplane/drawing-sheet.png" alt="Engineering Drawing">
+  </figure>
+
+  <figure>
+    <figcaption><strong>Rendered Comparison with Physical Model</strong></figcaption>
+    <img src="/assets/images/CAD-Airplane/render-comparison.png" alt="Rendered Comparison">
+  </figure>
+
+</div>
+
+<p style="text-align:center; margin-top:2rem;">
+  <a class="project-button" href="/assets/files/CAD-Aircraft-Presentation.pdf" target="_blank">
+    View Full Project Presentation →
+  </a>
+</p>
 
 
 ## Key Takeaways
 
-- Modeled a real lego set in CATIA
+- Recreated a complex physical LEGO aircraft by reverse engineering individual components into accurate CATIA part models using precision caliper measurements.
+
+- Developed proficiency with CATIA's part design, assembly, drafting, and rendering workbenches throughout the complete design workflow.
+
+- Applied geometric reasoning and interference analysis to resolve part conflicts and successfully assemble a multi-component model.
+
+- Implemented design modifications while maintaining compatibility with existing LEGO components, balancing functional constraints with aesthetic improvements.
+
+- Produced professional engineering drawings and high-quality rendered visualizations to effectively communicate the completed design.

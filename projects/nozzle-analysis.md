@@ -7,93 +7,142 @@ author_profile: false
 
 <style>
 
-.hero-banner {
-  position: relative;
+.project-header-image {
+
   width: 100%;
-  height: 380px;
+  border-radius: 14px;
   overflow: hidden;
-  border-radius: 12px;
-  margin-bottom: 2rem;
+  margin-bottom: 1.75rem;
+
+  box-shadow:
+    0 3px 10px rgba(0,0,0,.08);
+
 }
 
-.hero-banner img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.project-header-image img {
+
   display: block;
+  width: 100%;
+  height: auto;
+
 }
 
-.hero-banner::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(0,0,0,0.65),
-    rgba(0,0,0,0.15),
-    rgba(0,0,0,0)
-  );
-}
+.project-title {
 
-.hero-text {
-  position: absolute;
-  bottom: 30px;
-  left: 35px;
-  z-index: 2;
-  color: white;
-}
-
-.hero-text h1 {
-  margin: 0;
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-weight: 700;
-  line-height: 1.1;
-  text-shadow: 0 2px 8px rgba(0,0,0,.35);
+
+  margin-bottom: .4rem;
+
+  color: #111827;
+
 }
 
-.hero-text p {
-  margin-top: 8px;
-  font-size: 1.05rem;
-  opacity: 0.95;
-  letter-spacing: 0.04em;
+.project-meta {
+
+  color: #64748b;
+
+  font-size: .95rem;
+
+  margin-bottom: .75rem;
+
 }
 
-.section-divider {
-  height: 2px;
+.skill-tags {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: .6rem;
+
+  margin-bottom: 2rem;
+
+}
+
+.skill {
+
+  background: #eef2ff;
+
+  color: #3730a3;
+
+  padding: .35rem .8rem;
+
+  border-radius: 999px;
+
+  font-size: .82rem;
+
+  font-weight: 600;
+
+}
+
+.divider {
+
+  height: 1px;
+
   background: #e5e7eb;
-  margin: 2rem 0;
+
+  margin-bottom: 2rem;
+
 }
 
 </style>
 
-<div class="hero-banner">
 
-<img src="/assets/images/NozzleThumb.jpg" alt="Compressible Flow Nozzle Analysis">
+<div class="project-header-image">
 
-<div class="hero-text">
-
-<h1>Compressible Flow Nozzle Analysis</h1>
-
-<p>MATLAB • Compressible Aerodynamics • Flow Classification</p>
+<img src="/assets/images/NozzleThumb.jpg"
+alt="Nozzle Flow Analysis">
 
 </div>
 
+
+<div class="project-title">
+
+Nozzle Flow Classification
+
 </div>
 
-<div class="section-divider"></div>
+
+<div class="project-meta">
+
+April 2026
+
+</div>
+
+
+<div class="skill-tags">
+
+<span class="skill">MATLAB</span>
+
+<span class="skill">Compressible Aerodynamics</span>
+
+<span class="skill">Flow Classification</span>
+
+<span class="skill">Numerical Methods</span>
+
+<span class="skill">Data Visualization</span>
+
+</div>
+
+
+<div class="divider"></div>
+
 
 <!--
-Begin project writeup here.
 
-Suggested order:
+Begin writeup here.
 
-Overview
+I would recommend sections like:
 
-Methods
+## Overview
 
-Results
+## Methodology
 
-Image Gallery (Cases 1–7)
+## Results
 
-Conclusions
+## Flow Regime Gallery
+
+and then show your seven cases below.
+
 -->

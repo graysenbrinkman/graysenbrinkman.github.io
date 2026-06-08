@@ -105,6 +105,10 @@ author_profile: false
     margin-bottom: 1.1rem;
   }
 
+  .header-link {
+  display: none !important;
+  }
+
 }
 
 </style>
@@ -131,8 +135,10 @@ author_profile: false
 </div>
 
 ## Objective
+The goal of this project was to analyze flow in a converging-diverging nozzle under different flow conditions in order to identify key elements of nozzle flow, such as exit velocity, as well as shock location and angle wherever possible. 
 
 ## Methodology
+A MATLAB program was developed to classify flow within a converging-diverging nozzle based on the specified back pressure ratio. The implementation applied compressible flow relations to determine the operating regime and calculate key flow properties, including exit conditions and the location of normal shocks when present. The results were then compared against theoretical nozzle behavior to verify the accuracy of the classification algorithm.
 
 ## Results
 

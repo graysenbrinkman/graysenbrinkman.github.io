@@ -191,36 +191,37 @@ author_profile: true
 
   </a>
 
-  <!-- PROJECT 3 -->
-  <a href="/projects/CAD-airplane/" class="project-card">
+<!-- PROJECT 3 -->
 
-    <div class="project-img-wrapper">
-      <img
-        src="/assets/images/CADAirplane/airplanemodified.png"
-        alt="CAD Aircraft Design"
-        class="project-img">
+<a href="/projects/cad-airplane/" class="project-card">
+
+  <div class="project-img-wrapper">
+    <img
+      src="/assets/images/CAD-Airplane/airplanemodified.png"
+      alt="CAD Aircraft Design"
+      class="project-img">
+  </div>
+
+  <div class="project-content">
+
+    <div class="project-timeline">
+      2025
     </div>
 
-    <div class="project-content">
+    <h2 class="project-title">
+      CAD Aircraft Design
+    </h2>
 
-      <div class="project-timeline">
-        2025
-      </div>
-
-      <h2 class="project-title">
-        CAD Aircraft Design
-      </h2>
-
-      <div class="project-summary">
-        Modeled, drafted, and rendered a LEGO aircraft in CATIA while implementing design modifications using existing LEGO components.
-      </div>
-
-      <div class="project-link">
-        View Project →
-      </div>
-
+    <div class="project-summary">
+      Modeled, drafted, and rendered a LEGO aircraft in CATIA while implementing design modifications using existing LEGO components.
     </div>
 
-  </a>
+    <div class="project-link">
+      View Project →
+    </div>
+
+  </div>
+
+</a>
 
 </div>

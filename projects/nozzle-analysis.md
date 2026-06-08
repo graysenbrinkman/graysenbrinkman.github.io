@@ -8,25 +8,23 @@ author_profile: false
 <style>
 
 /* Remove default theme spacing */
-.page {
-  padding-top: 0 !important;
-}
 
-.page__inner-wrap {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-
-.page__content {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-}
-
+.page,
+.page__inner-wrap,
+.page__content,
 .initial-content {
   padding-top: 0 !important;
+  margin-top: 0 !important;
 }
 
-/* Project layout */
+/* Hide heading anchor links */
+
+.header-link,
+.anchorjs-link {
+  display: none !important;
+}
+
+/* Main wrapper */
 
 .project-wrap {
   max-width: 980px;
@@ -34,9 +32,11 @@ author_profile: false
   padding: 0 1rem;
 }
 
+/* Hero image */
+
 .project-hero {
   width: 100%;
-  margin: 0 0 1rem 0;
+  margin-bottom: 1rem;
 }
 
 .project-hero img {
@@ -44,24 +44,27 @@ author_profile: false
   height: auto;
   display: block;
   border-radius: 14px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
 }
 
+/* Title */
+
 .project-title {
-  margin: 0.35rem 0 0.4rem 0;
+  margin: 0.25rem 0 0.4rem;
   font-size: 2.15rem;
-  line-height: 1.12;
   font-weight: 700;
+  line-height: 1.1;
   color: #0f172a;
-  text-align: left;
 }
+
+/* Meta information */
 
 .project-meta {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.75rem 1rem;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.35rem;
   color: #64748b;
   font-size: 0.98rem;
 }
@@ -69,6 +72,8 @@ author_profile: false
 .project-date {
   font-weight: 500;
 }
+
+/* Skill pills */
 
 .skill-tags {
   display: flex;
@@ -85,11 +90,15 @@ author_profile: false
   font-weight: 600;
 }
 
+/* Divider */
+
 .project-divider {
   border: none;
   border-top: 1px solid #e5e7eb;
-  margin: 1.5rem 0 0;
+  margin: 1.5rem 0;
 }
+
+/* Mobile */
 
 @media (max-width: 768px) {
 
@@ -101,27 +110,27 @@ author_profile: false
     font-size: 1.8rem;
   }
 
-  .project-meta {
-    margin-bottom: 1.1rem;
-  }
-
-  .header-link {
-  display: none !important;
-  }
-
 }
 
 </style>
 
 <div class="project-wrap">
+
   <div class="project-hero">
-    <img src="/assets/images/nozzle-project/NozzleThumb.jpg" alt="Nozzle Flow Classification">
+    <img src="/assets/images/nozzle-project/NozzleThumb.jpg"
+         alt="Nozzle Flow Classification">
   </div>
 
-  <h1 class="project-title">Nozzle Flow Classification</h1>
+  <h1 class="project-title">
+    Nozzle Flow Classification
+  </h1>
 
   <div class="project-meta">
-    <div class="project-date">April 2026</div>
+
+    <div class="project-date">
+      April 2026
+    </div>
+
     <div class="skill-tags">
       <span class="skill">MATLAB</span>
       <span class="skill">Compressible Aerodynamics</span>
@@ -129,15 +138,19 @@ author_profile: false
       <span class="skill">Numerical Methods</span>
       <span class="skill">Data Visualization</span>
     </div>
+
   </div>
 
   <hr class="project-divider">
+
 </div>
 
 ## Objective
-The goal of this project was to analyze flow in a converging-diverging nozzle under different flow conditions in order to identify key elements of nozzle flow, such as exit velocity, as well as shock location and angle wherever possible. 
+
+The goal of this project was to analyze flow in a converging-diverging nozzle under different flow conditions in order to identify key elements of nozzle flow, such as exit velocity, as well as shock location and angle wherever possible.
 
 ## Methodology
+
 A MATLAB program was developed to classify flow within a converging-diverging nozzle based on the specified back pressure ratio. The implementation applied compressible flow relations to determine the operating regime and calculate key flow properties, including exit conditions and the location of normal shocks when present. The results were then compared against theoretical nozzle behavior to verify the accuracy of the classification algorithm.
 
 ## Results

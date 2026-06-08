@@ -1,7 +1,7 @@
 ---
 layout: single
 title: ""
-permalink: /projects/CAD-airplane/
+permalink: /projects/cad-airplane/
 author_profile: false
 ---
 

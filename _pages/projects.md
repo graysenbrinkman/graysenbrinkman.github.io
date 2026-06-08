@@ -192,8 +192,7 @@ author_profile: true
   </a>
 
   <!-- PROJECT 3 -->
-
-  <a href="/projects/cad-aircraft/" class="project-card">
+  <a href="/projects/CAD-airplane/" class="project-card">
 
     <div class="project-img-wrapper">
       <img

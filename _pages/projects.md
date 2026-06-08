@@ -148,7 +148,7 @@ author_profile: true
 
   <div class="project-img-wrapper">
     <img
-      src="/assets/images/nozzle-analysis/Nozzle1.jpg"
+      src="/assets/images/nozzle-analysis/Nozzle4.jpg"
       alt="Nozzle Flow Analysis"
       class="project-img">
   </div>

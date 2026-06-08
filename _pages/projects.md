@@ -131,7 +131,7 @@ author_profile: true
 
     <div class="project-img-wrapper">
       <img
-        src="/assets/images/nozzle-analysis/Nozzle4.jpg"
+        src="/assets/images/nozzle-project/Nozzle4.jpg"
         alt="Nozzle Flow Analysis"
         class="project-img">
     </div>
@@ -197,7 +197,7 @@ author_profile: true
 
     <div class="project-img-wrapper">
       <img
-        src="/assets/images/cad-thumb.jpg"
+        src="/assets/images/CADAirplane/airplanemodified.png"
         alt="CAD Aircraft Design"
         class="project-img">
     </div>

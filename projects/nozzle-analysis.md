@@ -111,7 +111,7 @@ author_profile: false
 
 <div class="project-wrap">
   <div class="project-hero">
-    <img src="/assets/images/NozzleThumb.jpg" alt="Nozzle Flow Classification">
+    <img src="/assets/images/nozzle-project/NozzleThumb.jpg" alt="Nozzle Flow Classification">
   </div>
 
   <h1 class="project-title">Nozzle Flow Classification</h1>
@@ -129,3 +129,11 @@ author_profile: false
 
   <hr class="project-divider">
 </div>
+
+## Objective
+
+## Methodology
+
+## Results
+
+## Key Takeaways

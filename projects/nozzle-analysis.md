@@ -6,84 +6,102 @@ author_profile: false
 ---
 
 <style>
+.project-wrap {
+  max-width: 980px;
+  margin: 1.5rem auto 0;
+  padding: 0 1rem;
+}
 
 .project-hero {
-  max-width: 1000px;
-  margin: 2rem auto;
-  text-align: center;
+  width: 100%;
+  margin: 0 0 1.1rem 0;
 }
 
 .project-hero img {
-  width: 90%;
-  max-width: 950px;
+  width: 100%;
+  height: auto;
   display: block;
-  margin: 0 auto;
   border-radius: 14px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
 }
 
 .project-title {
-  margin: 2rem 0 0.5rem 0;
-  font-size: 3.1rem;
-  line-height: 1.1;
+  margin: 0.35rem 0 0.4rem 0;
+  font-size: 2.15rem;
+  line-height: 1.12;
   font-weight: 700;
   color: #0f172a;
+  text-align: left;
+}
+
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+  margin-bottom: 1.4rem;
+  color: #64748b;
+  font-size: 0.98rem;
 }
 
 .project-date {
-  font-size: 1.15rem;
-  color: #64748b;
-  margin-bottom: 1.25rem;
+  font-weight: 500;
 }
 
-.skills {
+.skill-tags {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-bottom: 2rem;
+  gap: 0.5rem;
 }
 
 .skill {
   background: #eef2ff;
   color: #3730a3;
-  padding: 0.55rem 1.25rem;
+  padding: 0.35rem 0.8rem;
   border-radius: 999px;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .project-divider {
   border: none;
   border-top: 1px solid #e5e7eb;
-  max-width: 950px;
-  margin: 0 auto 2.5rem auto;
+  margin: 1.5rem 0 0;
 }
 
+@media (max-width: 768px) {
+  .project-wrap {
+    padding: 0 0.75rem;
+    margin-top: 1rem;
+  }
+
+  .project-title {
+    font-size: 1.8rem;
+  }
+
+  .project-meta {
+    margin-bottom: 1.1rem;
+  }
+}
 </style>
 
-<div class="project-hero">
-
-  <img
-    src="/assets/images/NozzleThumb.jpg"
-    alt="Nozzle Flow Classification">
-
-  <h1 class="project-title">
-    Nozzle Flow Classification
-  </h1>
-
-  <div class="project-date">
-    April 2026
+<div class="project-wrap">
+  <div class="project-hero">
+    <img src="/assets/images/NozzleThumb.jpg" alt="Nozzle Flow Classification">
   </div>
 
-  <div class="skills">
-    <span class="skill">MATLAB</span>
-    <span class="skill">Compressible Aerodynamics</span>
-    <span class="skill">Flow Classification</span>
-    <span class="skill">Numerical Methods</span>
-    <span class="skill">Data Visualization</span>
+  <h1 class="project-title">Nozzle Flow Classification</h1>
+
+  <div class="project-meta">
+    <div class="project-date">April 2026</div>
+    <div class="skill-tags">
+      <span class="skill">MATLAB</span>
+      <span class="skill">Compressible Aerodynamics</span>
+      <span class="skill">Flow Classification</span>
+      <span class="skill">Numerical Methods</span>
+      <span class="skill">Data Visualization</span>
+    </div>
   </div>
 
   <hr class="project-divider">
-
 </div>

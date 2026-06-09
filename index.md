@@ -234,7 +234,7 @@ permalink: /
 
     <p><strong>Programming:</strong> MATLAB, ROS 2, Python, PX4</p>
 
-    <p><strong>Engineering Software:</strong> CATIA</p>
+    <p><strong>Engineering Software:</strong> CATIA, CFD</p>
 
     <p><strong>Documentation & Fabrication:</strong> LaTeX, 3D Printing</p>
   </div>

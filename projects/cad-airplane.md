@@ -5,8 +5,87 @@ permalink: /projects/cad-airplane/
 author_profile: false
 ---
 
-/* Results gallery */
+<style>
 
+/* Remove default theme spacing */
+.page,
+.page__inner-wrap,
+.page__content,
+.initial-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Remove heading anchor icons */
+.header-link,
+.anchorjs-link {
+  display: none !important;
+}
+
+/* Main layout */
+.project-wrap {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Hero image */
+.project-hero {
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.project-hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+}
+
+/* Title */
+.project-title {
+  margin: 0;
+  font-size: 2.35rem;
+  line-height: 1.15;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* Metadata */
+.project-meta {
+  margin-top: 0.6rem;
+  margin-bottom: 1.4rem;
+}
+
+.project-date {
+  color: #64748b;
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.skill {
+  background: #eef2ff;
+  color: #3730a3;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.project-divider {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 1.6rem 0 2rem;
+}
+
+/* Results gallery */
 .result-gallery {
   margin-top: 2rem;
 }
@@ -25,18 +104,17 @@ author_profile: false
 }
 
 .result-gallery figcaption {
-  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
   text-align: center;
   color: #64748b;
   font-size: 1rem;
 }
 
-/* Side-by-side image pairs */
-
+/* Side-by-side pairs */
 .drawing-pair {
   display: flex;
   gap: 20px;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.75rem;
 }
 
 .drawing-pair figure {
@@ -52,18 +130,24 @@ author_profile: false
 }
 
 .drawing-pair figcaption {
-  text-align: center;
   margin-bottom: 0.8rem;
+  text-align: center;
   color: #64748b;
   font-size: 1rem;
 }
 
 @media (max-width: 768px) {
+  .project-wrap {
+    padding: 0 0.75rem;
+  }
+
+  .project-title {
+    font-size: 1.9rem;
+  }
 
   .drawing-pair {
     flex-direction: column;
   }
-
 }
 
 </style>
@@ -71,7 +155,7 @@ author_profile: false
 <div class="project-wrap">
 
   <div class="project-hero">
-    <img src="/assets/images/cad-airplane/airplanemodified.png" alt="Nozzle Flow Classification">
+    <img src="/assets/images/cad-airplane/airplanemodified.png" alt="CAD LEGO Airplane Model">
   </div>
 
   <h1 class="project-title">
@@ -79,7 +163,6 @@ author_profile: false
   </h1>
 
   <div class="project-meta">
-
     <div class="project-date">
       January - April 2026
     </div>
@@ -91,7 +174,6 @@ author_profile: false
       <span class="skill">CATIA Rendering</span>
       <span class="skill">Spatial visualization</span>
     </div>
-
   </div>
 
   <hr class="project-divider">
@@ -103,67 +185,49 @@ author_profile: false
 The objective of this project was to recreate a physical LEGO aircraft using CATIA by modeling small sections of the set, assembling the complete design, and implementing modifications to improve the original configuration while maintaining compatibility with existing LEGO elements.
 
 ## Design Process
-Similar LEGO components were grouped to streamline the modeling process and measured using digital calipers. These measurements were translated into individual CATIA parts using features such as pads, pockets, and patterns before being assembled into the complete aircraft. The grouping strategy allowed the model to be constructed from stacked plate assemblies, requiring interference checks and iterative adjustments to resolve overlapping geometry. Design modifications were constrained to existing LEGO components and included the addition of a nose wheel, a redesigned nose cone, and the removal of unnecessary studs to improve both appearance and the conceptual aerodynamic profile. The completed assembly was then documented through engineering drawings and rendered alongside the physical LEGO model for comparison.
 
+Similar LEGO components were grouped to streamline the modeling process and measured using digital calipers. These measurements were translated into individual CATIA parts using features such as pads, pockets, and patterns before being assembled into the complete aircraft. The grouping strategy allowed the model to be constructed from stacked plate assemblies, requiring interference checks and iterative adjustments to resolve overlapping geometry. Design modifications were constrained to existing LEGO components and included the addition of a nose wheel, a redesigned nose cone, and the removal of unnecessary studs to improve both appearance and the conceptual aerodynamic profile. The completed assembly was then documented through engineering drawings and rendered alongside the physical LEGO model for comparison.
 
 ## Results
 
 <div class="result-gallery">
 
-  <!-- Original vs Modified -->
+  <figure>
+    <figcaption><strong>Original LEGO Aircraft</strong></figcaption>
+    <img src="/assets/images/cad-airplane/airplaneog.png" alt="Original LEGO Aircraft">
+  </figure>
 
-  <div class="drawing-pair">
-
-    <figure>
-      <figcaption><strong>Original LEGO Aircraft</strong></figcaption>
-      <img src="/assets/images/cad-airplane/airplaneog.png"
-           alt="Original LEGO Aircraft">
-    </figure>
-
-    <figure>
-      <figcaption><strong>Modified CAD Assembly</strong></figcaption>
-      <img src="/assets/images/cad-airplane/airplanemodified.png"
-           alt="Modified CAD Assembly">
-    </figure>
-
-  </div>
-
-  <!-- Drawings -->
+  <figure>
+    <figcaption><strong>Modified CAD Assembly</strong></figcaption>
+    <img src="/assets/images/cad-airplane/airplanemodified.png" alt="Modified CAD Assembly">
+  </figure>
 
   <div class="drawing-pair">
 
     <figure>
       <figcaption><strong>Assembly Drawing</strong></figcaption>
-      <img src="/assets/images/cad-airplane/drafting1.png"
-           alt="Assembly Drawing">
+      <img src="/assets/images/cad-airplane/drafting1.png" alt="Assembly Drawing">
     </figure>
 
     <figure>
       <figcaption><strong>Component Drawing</strong></figcaption>
-      <img src="/assets/images/cad-airplane/drafting2.png"
-           alt="Component Drawing">
+      <img src="/assets/images/cad-airplane/drafting2.png" alt="Component Drawing">
     </figure>
 
   </div>
 
-  <!-- Render -->
-
   <figure>
     <figcaption><strong>Rendered Model</strong></figcaption>
-    <img src="/assets/images/cad-airplane/render.png"
-         alt="Rendered Model">
+    <img src="/assets/images/cad-airplane/render.png" alt="Rendered Model">
   </figure>
 
 </div>
 
 <p style="text-align:center; margin-top:2rem;">
-  <a class="project-button"
-     href="/assets/files/cad-airplane-presentation.pdf"
-     target="_blank">
+  <a class="project-button" href="/assets/files/cad-airplane-presentation.pdf" target="_blank">
     View Full Project Presentation →
   </a>
 </p>
-
 
 ## Key Takeaways
 

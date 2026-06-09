@@ -6,7 +6,6 @@ author_profile: false
 ---
 
 <style>
-
 /* Remove default theme spacing */
 .page,
 .page__inner-wrap,
@@ -110,7 +109,7 @@ author_profile: false
   font-size: 1rem;
 }
 
-/* Side-by-side pairs */
+/* Side-by-side image pairs */
 .drawing-pair {
   display: flex;
   gap: 20px;
@@ -149,7 +148,6 @@ author_profile: false
     flex-direction: column;
   }
 }
-
 </style>
 
 <div class="project-wrap">
@@ -180,30 +178,35 @@ author_profile: false
 
 </div>
 
-## Objective
+<h2>Objective</h2>
 
+<p>
 The objective of this project was to recreate a physical LEGO aircraft using CATIA by modeling small sections of the set, assembling the complete design, and implementing modifications to improve the original configuration while maintaining compatibility with existing LEGO elements.
+</p>
 
-## Design Process
+<h2>Design Process</h2>
 
+<p>
 Similar LEGO components were grouped to streamline the modeling process and measured using digital calipers. These measurements were translated into individual CATIA parts using features such as pads, pockets, and patterns before being assembled into the complete aircraft. The grouping strategy allowed the model to be constructed from stacked plate assemblies, requiring interference checks and iterative adjustments to resolve overlapping geometry. Design modifications were constrained to existing LEGO components and included the addition of a nose wheel, a redesigned nose cone, and the removal of unnecessary studs to improve both appearance and the conceptual aerodynamic profile. The completed assembly was then documented through engineering drawings and rendered alongside the physical LEGO model for comparison.
+</p>
 
-## Results
+<h2>Results</h2>
 
 <div class="result-gallery">
 
-  <figure>
-    <figcaption><strong>Original LEGO Aircraft</strong></figcaption>
-    <img src="/assets/images/cad-airplane/airplaneog.png" alt="Original LEGO Aircraft">
-  </figure>
+  <div class="drawing-pair">
+    <figure>
+      <figcaption><strong>Original LEGO Aircraft</strong></figcaption>
+      <img src="/assets/images/cad-airplane/airplaneog.png" alt="Original LEGO Aircraft">
+    </figure>
 
-  <figure>
-    <figcaption><strong>Modified CAD Assembly</strong></figcaption>
-    <img src="/assets/images/cad-airplane/airplanemodified.png" alt="Modified CAD Assembly">
-  </figure>
+    <figure>
+      <figcaption><strong>Modified CAD Assembly</strong></figcaption>
+      <img src="/assets/images/cad-airplane/airplanemodified.png" alt="Modified CAD Assembly">
+    </figure>
+  </div>
 
   <div class="drawing-pair">
-
     <figure>
       <figcaption><strong>Assembly Drawing</strong></figcaption>
       <img src="/assets/images/cad-airplane/drafting1.png" alt="Assembly Drawing">
@@ -213,7 +216,6 @@ Similar LEGO components were grouped to streamline the modeling process and meas
       <figcaption><strong>Component Drawing</strong></figcaption>
       <img src="/assets/images/cad-airplane/drafting2.png" alt="Component Drawing">
     </figure>
-
   </div>
 
   <figure>
@@ -229,14 +231,12 @@ Similar LEGO components were grouped to streamline the modeling process and meas
   </a>
 </p>
 
-## Key Takeaways
+<h2>Key Takeaways</h2>
 
-- Recreated a complex physical LEGO aircraft by reverse engineering individual components into accurate CATIA part models using precision caliper measurements.
-
-- Developed proficiency with CATIA's part design, assembly, drafting, and rendering workbenches throughout the complete design workflow.
-
-- Applied geometric reasoning and interference analysis to resolve part conflicts and successfully assemble a multi-component model.
-
-- Implemented design modifications while maintaining compatibility with existing LEGO components, balancing functional constraints with aesthetic improvements.
-
-- Produced professional engineering drawings and high-quality rendered visualizations to effectively communicate the completed design.
+<ul>
+  <li>Recreated a complex physical LEGO aircraft by reverse engineering individual components into accurate CATIA part models using precision caliper measurements.</li>
+  <li>Developed proficiency with CATIA's part design, assembly, drafting, and rendering workbenches throughout the complete design workflow.</li>
+  <li>Applied geometric reasoning and interference analysis to resolve part conflicts and successfully assemble a multi-component model.</li>
+  <li>Implemented design modifications while maintaining compatibility with existing LEGO components, balancing functional constraints with aesthetic improvements.</li>
+  <li>Produced professional engineering drawings and high-quality rendered visualizations to effectively communicate the completed design.</li>
+</ul>

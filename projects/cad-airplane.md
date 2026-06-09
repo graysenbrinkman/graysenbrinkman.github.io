@@ -126,6 +126,31 @@ author_profile: false
     font-size: 1.9rem;
   }
 
+  .drawing-pair {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.drawing-pair img {
+  width: calc(50% - 8px);
+  max-width: none;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+
+  .drawing-pair {
+    flex-direction: column;
+  }
+
+  .drawing-pair img {
+    width: 100%;
+  }
+
+}
+
 }
 
 </style>
@@ -174,28 +199,39 @@ Similar LEGO components were grouped to streamline the modeling process and meas
 
   <figure>
     <figcaption><strong>Original LEGO Aircraft</strong></figcaption>
-    <img src="/assets/images/CAD-Airplane/original-plane.png" alt="Original LEGO Aircraft">
+    <img src="/assets/images/cad-airplane/airplaneog.png" alt="Original LEGO Aircraft">
   </figure>
 
   <figure>
     <figcaption><strong>Modified CAD Assembly</strong></figcaption>
-    <img src="/assets/images/CAD-Airplane/airplanemodified.png" alt="Modified CAD Aircraft">
+    <img src="/assets/images/cad-airplane/airplanemodified.png" alt="Modified CAD Aircraft">
   </figure>
 
   <figure>
-    <figcaption><strong>Engineering Drawing</strong></figcaption>
-    <img src="/assets/images/CAD-Airplane/drawing-sheet.png" alt="Engineering Drawing">
-  </figure>
+
+  <div class="drawing-pair">
+
+    <img src="/assets/images/cad-airplane/draftng1.png"
+         alt="Engineering Drawing 1">
+
+    <img src="/assets/images/cad-airplane/draftng2.png"
+         alt="Engineering Drawing 2">
+
+  </div>
+
+  <figcaption><strong>Engineering Drawings</strong></figcaption>
+
+</figure>
 
   <figure>
-    <figcaption><strong>Rendered Comparison with Physical Model</strong></figcaption>
-    <img src="/assets/images/CAD-Airplane/render-comparison.png" alt="Rendered Comparison">
+    <figcaption><strong>Rendered Model</strong></figcaption>
+    <img src="/assets/images/cad-airplane/render.png" alt="Rendered Comparison">
   </figure>
 
 </div>
 
 <p style="text-align:center; margin-top:2rem;">
-  <a class="project-button" href="/assets/files/CAD-Aircraft-Presentation.pdf" target="_blank">
+  <a class="project-button" href="/assets/files/cad-airplane-presentation.pdf" target="_blank">
     View Full Project Presentation →
   </a>
 </p>

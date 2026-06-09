@@ -197,41 +197,64 @@ Similar LEGO components were grouped to streamline the modeling process and meas
 
 <div class="result-gallery">
 
+  <!-- CAD Models -->
+
   <figure>
-    <figcaption><strong>Original LEGO Aircraft</strong></figcaption>
-    <img src="/assets/images/cad-airplane/airplaneog.png" alt="Original LEGO Aircraft">
+
+    <div class="drawing-pair">
+
+      <div>
+        <figcaption><strong>Original LEGO Aircraft</strong></figcaption>
+        <img src="/assets/images/cad-airplane/airplaneog.png"
+             alt="Original LEGO Aircraft">
+      </div>
+
+      <div>
+        <figcaption><strong>Modified CAD Assembly</strong></figcaption>
+        <img src="/assets/images/cad-airplane/airplanemodified.png"
+             alt="Modified CAD Assembly">
+      </div>
+
+    </div>
+
   </figure>
 
+  <!-- Engineering Drawings -->
+
   <figure>
-    <figcaption><strong>Modified CAD Assembly</strong></figcaption>
-    <img src="/assets/images/cad-airplane/airplanemodified.png" alt="Modified CAD Aircraft">
+
+    <div class="drawing-pair">
+
+      <div>
+        <figcaption><strong>Assembly Drawing</strong></figcaption>
+        <img src="/assets/images/cad-airplane/drafting1.png"
+             alt="Assembly Drawing">
+      </div>
+
+      <div>
+        <figcaption><strong>Part Drawing</strong></figcaption>
+        <img src="/assets/images/cad-airplane/drafting2.png"
+             alt="Part Drawing">
+      </div>
+
+    </div>
+
   </figure>
 
-  <figure>
-
-  <div class="drawing-pair">
-
-    <img src="/assets/images/cad-airplane/draftng1.png"
-         alt="Engineering Drawing 1">
-
-    <img src="/assets/images/cad-airplane/draftng2.png"
-         alt="Engineering Drawing 2">
-
-  </div>
-
-  <figcaption><strong>Engineering Drawings</strong></figcaption>
-
-</figure>
+  <!-- Render -->
 
   <figure>
     <figcaption><strong>Rendered Model</strong></figcaption>
-    <img src="/assets/images/cad-airplane/render.png" alt="Rendered Comparison">
+    <img src="/assets/images/cad-airplane/render.png"
+         alt="Rendered Model">
   </figure>
 
 </div>
 
 <p style="text-align:center; margin-top:2rem;">
-  <a class="project-button" href="/assets/files/cad-airplane-presentation.pdf" target="_blank">
+  <a class="project-button"
+     href="/assets/files/cad-airplane-presentation.pdf"
+     target="_blank">
     View Full Project Presentation →
   </a>
 </p>

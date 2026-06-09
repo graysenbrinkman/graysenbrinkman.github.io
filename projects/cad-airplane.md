@@ -5,91 +5,6 @@ permalink: /projects/cad-airplane/
 author_profile: false
 ---
 
-<style>
-
-/* Remove default theme spacing */
-
-.page,
-.page__inner-wrap,
-.page__content,
-.initial-content {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-/* Hide anchor links beside headings */
-
-.header-link {
-  display: none !important;
-}
-
-/* Main layout */
-
-.project-wrap {
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-/* Hero image */
-
-.project-hero {
-  width: 100%;
-  margin-bottom: 1.25rem;
-}
-
-.project-hero img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 14px;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-}
-
-/* Title */
-
-.project-title {
-  margin: 0;
-  font-size: 2.35rem;
-  line-height: 1.15;
-  font-weight: 700;
-  color: #0f172a;
-}
-
-/* Metadata */
-
-.project-meta {
-  margin-top: 0.6rem;
-  margin-bottom: 1.4rem;
-}
-
-.project-date {
-  color: #64748b;
-  font-size: 1rem;
-  margin-bottom: 0.8rem;
-}
-
-.skill-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-}
-
-.skill {
-  background: #eef2ff;
-  color: #3730a3;
-  padding: 0.35rem 0.8rem;
-  border-radius: 999px;
-  font-size: 0.8rem;
-  font-weight: 600;
-}
-
-.project-divider {
-  border: none;
-  border-top: 1px solid #e5e7eb;
-  margin: 1.6rem 0 2rem;
-}
-
 /* Results gallery */
 
 .result-gallery {
@@ -116,17 +31,9 @@ author_profile: false
   font-size: 1rem;
 }
 
-@media (max-width: 768px) {
+/* Side-by-side image pairs */
 
-  .project-wrap {
-    padding: 0 0.75rem;
-  }
-
-  .project-title {
-    font-size: 1.9rem;
-  }
-
-  .drawing-pair {
+.drawing-pair {
   display: flex;
   gap: 16px;
   justify-content: center;
@@ -139,7 +46,17 @@ author_profile: false
   margin: 0;
 }
 
+/* Mobile */
+
 @media (max-width: 768px) {
+
+  .project-wrap {
+    padding: 0 0.75rem;
+  }
+
+  .project-title {
+    font-size: 1.9rem;
+  }
 
   .drawing-pair {
     flex-direction: column;
@@ -148,8 +65,6 @@ author_profile: false
   .drawing-pair img {
     width: 100%;
   }
-
-}
 
 }
 

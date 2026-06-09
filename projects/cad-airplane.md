@@ -35,35 +35,33 @@ author_profile: false
 
 .drawing-pair {
   display: flex;
-  gap: 16px;
-  justify-content: center;
-  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 2.5rem;
 }
 
-.drawing-pair img {
-  width: calc(50% - 8px);
-  max-width: none;
+.drawing-pair figure {
+  flex: 1;
   margin: 0;
 }
 
-/* Mobile */
+.drawing-pair img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.drawing-pair figcaption {
+  text-align: center;
+  margin-bottom: 0.8rem;
+  color: #64748b;
+  font-size: 1rem;
+}
 
 @media (max-width: 768px) {
 
-  .project-wrap {
-    padding: 0 0.75rem;
-  }
-
-  .project-title {
-    font-size: 1.9rem;
-  }
-
   .drawing-pair {
     flex-direction: column;
-  }
-
-  .drawing-pair img {
-    width: 100%;
   }
 
 }
@@ -112,49 +110,41 @@ Similar LEGO components were grouped to streamline the modeling process and meas
 
 <div class="result-gallery">
 
-  <!-- CAD Models -->
+  <!-- Original vs Modified -->
 
-  <figure>
+  <div class="drawing-pair">
 
-    <div class="drawing-pair">
+    <figure>
+      <figcaption><strong>Original LEGO Aircraft</strong></figcaption>
+      <img src="/assets/images/cad-airplane/airplaneog.png"
+           alt="Original LEGO Aircraft">
+    </figure>
 
-      <div>
-        <figcaption><strong>Original LEGO Aircraft</strong></figcaption>
-        <img src="/assets/images/cad-airplane/airplaneog.png"
-             alt="Original LEGO Aircraft">
-      </div>
+    <figure>
+      <figcaption><strong>Modified CAD Assembly</strong></figcaption>
+      <img src="/assets/images/cad-airplane/airplanemodified.png"
+           alt="Modified CAD Assembly">
+    </figure>
 
-      <div>
-        <figcaption><strong>Modified CAD Assembly</strong></figcaption>
-        <img src="/assets/images/cad-airplane/airplanemodified.png"
-             alt="Modified CAD Assembly">
-      </div>
+  </div>
 
-    </div>
+  <!-- Drawings -->
 
-  </figure>
+  <div class="drawing-pair">
 
-  <!-- Engineering Drawings -->
+    <figure>
+      <figcaption><strong>Assembly Drawing</strong></figcaption>
+      <img src="/assets/images/cad-airplane/drafting1.png"
+           alt="Assembly Drawing">
+    </figure>
 
-  <figure>
+    <figure>
+      <figcaption><strong>Component Drawing</strong></figcaption>
+      <img src="/assets/images/cad-airplane/drafting2.png"
+           alt="Component Drawing">
+    </figure>
 
-    <div class="drawing-pair">
-
-      <div>
-        <figcaption><strong>Assembly Drawing</strong></figcaption>
-        <img src="/assets/images/cad-airplane/drafting1.png"
-             alt="Assembly Drawing">
-      </div>
-
-      <div>
-        <figcaption><strong>Part Drawing</strong></figcaption>
-        <img src="/assets/images/cad-airplane/drafting2.png"
-             alt="Part Drawing">
-      </div>
-
-    </div>
-
-  </figure>
+  </div>
 
   <!-- Render -->
 

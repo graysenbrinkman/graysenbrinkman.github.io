@@ -93,6 +93,13 @@ author_profile: false
   margin: 0 0 2.75rem 0;
 }
 
+.result-gallery figcaption {
+  margin-bottom: 0.8rem;
+  text-align: center;
+  color: #64748b;
+  font-size: 1rem;
+}
+
 .result-gallery img {
   width: 100%;
   max-width: 900px;
@@ -102,39 +109,38 @@ author_profile: false
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
 
-.result-gallery figcaption {
-  margin-bottom: 0.8rem;
-  text-align: center;
-  color: #64748b;
-  font-size: 1rem;
-}
-
 /* Side-by-side image pairs */
-.drawing-pair {
+.pair-grid {
   display: flex;
   gap: 20px;
   margin-bottom: 2.75rem;
 }
 
-.drawing-pair figure {
+.pair-grid figure {
   flex: 1;
   margin: 0;
 }
 
-.drawing-pair img {
+.pair-grid img {
   width: 100%;
   display: block;
   border-radius: 10px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
 
-.drawing-pair figcaption {
+.pair-grid figcaption {
   margin-bottom: 0.8rem;
   text-align: center;
   color: #64748b;
   font-size: 1rem;
 }
 
+/* Smaller render image */
+.rendered-model {
+  max-width: 650px !important;
+}
+
+/* Mobile */
 @media (max-width: 768px) {
   .project-wrap {
     padding: 0 0.75rem;
@@ -144,7 +150,7 @@ author_profile: false
     font-size: 1.9rem;
   }
 
-  .drawing-pair {
+  .pair-grid {
     flex-direction: column;
   }
 }
@@ -194,7 +200,7 @@ Similar LEGO components were grouped to streamline the modeling process and meas
 
 <div class="result-gallery">
 
-  <div class="drawing-pair">
+  <div class="pair-grid">
     <figure>
       <figcaption><strong>Original LEGO Aircraft</strong></figcaption>
       <img src="/assets/images/cad-airplane/airplaneog.png" alt="Original LEGO Aircraft">
@@ -206,21 +212,22 @@ Similar LEGO components were grouped to streamline the modeling process and meas
     </figure>
   </div>
 
-  <div class="drawing-pair">
-    <figure>
-      <figcaption><strong>Assembly Drawing</strong></figcaption>
-      <img src="/assets/images/cad-airplane/drafting1.png" alt="Assembly Drawing">
-    </figure>
+  <div style="margin-bottom: 2.75rem;">
+    <figcaption><strong>Dimensioned Engineering Drawing</strong></figcaption>
+    <div class="pair-grid" style="margin-bottom: 0;">
+      <figure>
+        <img src="/assets/images/cad-airplane/drafting1.png" alt="Engineering Drawing Sheet 1">
+      </figure>
 
-    <figure>
-      <figcaption><strong>Component Drawing</strong></figcaption>
-      <img src="/assets/images/cad-airplane/drafting2.png" alt="Component Drawing">
-    </figure>
+      <figure>
+        <img src="/assets/images/cad-airplane/drafting2.png" alt="Engineering Drawing Sheet 2">
+      </figure>
+    </div>
   </div>
 
   <figure>
     <figcaption><strong>Rendered Model</strong></figcaption>
-    <img src="/assets/images/cad-airplane/render.png" alt="Rendered Model">
+    <img class="rendered-model" src="/assets/images/cad-airplane/render.png" alt="Rendered Model">
   </figure>
 
 </div>

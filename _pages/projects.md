@@ -1,4 +1,4 @@
----
+_---
 layout: single
 title: "Projects"
 permalink: /projects/
@@ -224,4 +224,70 @@ author_profile: true
 
 </a>
 
+  <!-- PROJECT 4 -->
+
+  <a href="/projects/airhound/" class="project-card">
+
+    <div class="project-img-wrapper">
+      <img
+        src=""
+        alt="AIRHOUND Drone Research Project"
+        class="project-img">
+    </div>
+
+    <div class="project-content">
+
+      <div class="project-timeline">
+        August 2025 - April 2026
+      </div>
+
+      <h2 class="project-title">
+        AIRHOUND Drone Research Project
+      </h2>
+
+      <div class="project-summary">
+        Assisted in creating a PX4 converter as well as SITL and HITL testing and report writing.
+      </div>
+
+      <div class="project-link">
+        View Project →
+      </div>
+
+    </div>
+
+  </a>
+
+  <!-- PROJECT 5 -->
+
+  <a href="/projects/dbf/" class="project-card">
+
+    <div class="project-img-wrapper">
+      <img
+        src=""
+        alt="dbf"
+        class="project-img">
+    </div>
+
+    <div class="project-content">
+
+      <div class="project-timeline">
+        August 2024 - April 2025
+      </div>
+
+      <h2 class="project-title">
+        Design Build Fly Member
+      </h2>
+
+      <div class="project-summary">
+        Worked on the manufacturing team, sanding parts, and getting intruduction into composites such as laser cutter and dremmel.
+      </div>
+
+      <div class="project-link">
+        View Project →
+      </div>
+
+    </div>
+
+  </a>
+  
 </div>

@@ -164,7 +164,7 @@ author_profile: true
 
     <div class="project-img-wrapper">
       <img
-        src="/assets/images/orbit-thumb.jpg"
+        src="/assets/images/gauss-method/gauss-image-1.png"
         alt="Orbit Determination"
         class="project-img">
     </div>
@@ -230,7 +230,7 @@ author_profile: true
 
     <div class="project-img-wrapper">
       <img
-        src=""
+        src="/assets/images/dbf/dbf-thumb.jpg"
         alt="AIRHOUND Drone Research Project"
         class="project-img">
     </div>
@@ -263,7 +263,7 @@ author_profile: true
 
     <div class="project-img-wrapper">
       <img
-        src=""
+        src="/assets/images/dbf/dbf-thumb.jpg"
         alt="dbf"
         class="project-img">
     </div>

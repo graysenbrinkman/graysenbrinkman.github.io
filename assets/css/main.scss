@@ -1,22 +1,30 @@
-/* Widen overall page */
-$max-width: 1400px; // try 1400–1600px
+---
+---
 
-/* Optional: reduce side padding */
-.page__inner {
-  max-width: 1400px;
-}
+@import "minimal-mistakes";
 
-.page {
-  padding-left: 2rem;
-  padding-right: 2rem;
-  grid-template-columns: 1fr !important;
-}
+/* =========================
+   WIDER LAYOUT OVERRIDES
+   ========================= */
 
-/* Make main content use more space */
+/* Increase overall site width */
+$max-width: 1400px;
+
+/* Expand main content area */
 .page__content {
-  max-width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Remove leftover sidebar spacing behavior */
 .sidebar {
   display: none;
+}
+
+/* Let page use full grid width */
+.page {
+  grid-template-columns: 1fr !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }

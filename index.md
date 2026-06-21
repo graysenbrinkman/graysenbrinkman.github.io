@@ -1,9 +1,7 @@
 ---
 layout: single
-title: ""
-author_profile: true
-layout: single
 classes: wide
+title: ""
 author_profile: false
 permalink: /
 ---
@@ -183,19 +181,10 @@ permalink: /
 
     <p>
       Aerospace Engineering Student<br>
-      Embry-Riddle Aeronautical University<br>
-      4.0 GPA • Applied Mathematics Minor
+      Embry-Riddle Aeronautical University
     </p>
-
-    <div class="hero-links">
-      <a href="/resume/">Resume</a>
-      <a href="https://linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a>
-      <a href="https://github.com/brinkgra">GitHub</a>
-      <a href="mailto:graybrinkman06@gmail.com">Contact</a>
-    </div>
   </div>
 </div>
-
 
 
 <div class="about-section">
@@ -281,8 +270,7 @@ permalink: /
 
 </div>
 
-<br>
-
-<a class="project-button" href="/projects/">
+<div style="margin-top: 2rem;">
+  <a class="project-button" href="/projects/">
   View All Projects →
 </a>

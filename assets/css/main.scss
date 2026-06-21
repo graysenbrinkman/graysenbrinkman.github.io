@@ -1,1 +1,3 @@
-
+@import "minimal-mistakes/skins/default"; // or your chosen skin
+@import "minimal-mistakes";               // load the theme
+@import "custom";                         // load your overrides

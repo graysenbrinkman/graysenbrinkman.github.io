@@ -9,9 +9,14 @@ $max-width: 1400px; // try 1400–1600px
 .page {
   padding-left: 2rem;
   padding-right: 2rem;
+  grid-template-columns: 1fr !important;
 }
 
 /* Make main content use more space */
 .page__content {
   max-width: 100%;
+}
+
+.sidebar {
+  display: none;
 }

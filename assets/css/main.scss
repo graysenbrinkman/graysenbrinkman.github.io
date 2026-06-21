@@ -1,1 +1,17 @@
+/* Widen overall page */
+$max-width: 1400px; // try 1400–1600px
 
+/* Optional: reduce side padding */
+.page__inner {
+  max-width: 1400px;
+}
+
+.page {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* Make main content use more space */
+.page__content {
+  max-width: 100%;
+}

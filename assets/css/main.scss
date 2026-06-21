@@ -1,32 +1,24 @@
----
----
-
 /* =========================
-   WIDTH SETTINGS (MUST COME FIRST)
-   ========================= */
-$max-width: 1400px;
-
-@import "minimal-mistakes";
-
-/* =========================
-   WIDER LAYOUT OVERRIDES
+   REAL FULL WIDTH OVERRIDE
    ========================= */
 
-/* Expand main content area */
+.layout--single .page__inner-wrap {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Kill the default centering constraint */
+.page__inner-wrap {
+  max-width: 100% !important;
+}
+
+/* Ensure content uses space */
 .page__content {
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Remove sidebar */
-.sidebar {
-  display: none;
-}
-
-/* Full-width layout behavior */
-.page {
-  grid-template-columns: 1fr !important;
-  padding-left: 2rem;
-  padding-right: 2rem;
+.wrapper {
+  max-width: 100% !important;
 }

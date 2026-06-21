@@ -4,6 +4,7 @@ title: ""
 author_profile: true
 layout: single
 classes: wide
+author_profile: false
 permalink: /
 ---
 

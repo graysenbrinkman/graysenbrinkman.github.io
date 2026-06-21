@@ -186,14 +186,10 @@ permalink: /
 
   <p>
     I am an Aerospace Engineering student at Embry-Riddle Aeronautical University
-    pursuing a Bachelor of Science in Aerospace Engineering with a concentration
-    in Aeronautics and a minor in Applied Mathematics.
-  </p>
-
-  <p>
-    This portfolio showcases my academic projects, research experiences,
-    technical skills, and professional development as I work toward a career
-    in the aerospace industry.
+    pursuing a concentration in Aeronautics and a minor in Applied Mathematics.
+    My interests include aircraft design, autonomous systems, flight mechanics,
+    and experimental aerodynamics. This portfolio highlights projects, research
+    experiences, and technical work that reflect those interests.
   </p>
 </div>
 
@@ -210,8 +206,8 @@ permalink: /
   </div>
 
   <div class="stat-card">
-    <h3>Focus Areas</h3>
-    <p>Aeronautics & Applied Mathematics</p>
+    <h3>Minor</h3>
+    <p>Applied Mathematics</p>
   </div>
 
 </div>
@@ -219,34 +215,57 @@ permalink: /
 <div class="card-container">
 
   <div class="info-card">
-    <h3>Areas of Interest</h3>
+    <h3>Current Highlights</h3>
 
     <ul>
-      <li>Flight Mechanics & Aircraft Design</li>
-      <li>Autonomous Systems & UAV Offboard Control</li>
-      <li>Wind Tunnel Testing</li>
-      <li>Aerodynamics & Compressible Flow</li>
+      <li>Undergraduate Aerospace Engineering Student</li>
+      <li>Autonomous UAV Systems Development</li>
+      <li>Wind Tunnel Testing Experience</li>
+      <li>Academic Research & Engineering Projects</li>
     </ul>
   </div>
 
   <div class="info-card">
     <h3>Technical Skills</h3>
 
-    <p><strong>Programming:</strong> MATLAB, ROS 2, Python, PX4</p>
+    <p><strong>Programming:</strong><br>
+    MATLAB • Python • ROS 2 • PX4</p>
 
-    <p><strong>Engineering Software:</strong> CATIA, CFD</p>
+    <p><strong>Engineering Tools:</strong><br>
+    CATIA • CFD</p>
 
-    <p><strong>Documentation & Fabrication:</strong> LaTeX, 3D Printing</p>
+    <p><strong>Documentation & Fabrication:</strong><br>
+    LaTeX • 3D Printing</p>
   </div>
 
 </div>
 
-## Featured Work
+## Featured Projects
 
-Explore engineering projects involving compressible flow nozzle analysis, orbit determination utilizing the Gauss Method, and UAV systems integration.
+<div class="card-container">
+
+  <div class="info-card">
+    <h3>Compressible Flow Nozzle Analysis</h3>
+
+    <p>
+      Numerical analysis of converging-diverging nozzle performance,
+      shock formation, and compressible flow behavior.
+    </p>
+  </div>
+
+  <div class="info-card">
+    <h3>UAV Systems Integration</h3>
+
+    <p>
+      Development and testing of autonomous UAV control systems utilizing
+      ROS 2, PX4, and offboard control architectures.
+    </p>
+  </div>
+
+</div>
 
 <br>
 
 <a class="project-button" href="/projects/">
-  View Projects →
+  View All Projects →
 </a>

@@ -1,17 +1,15 @@
 title: Graysen Brinkman
-email: [graysenbrinkman@gmail.com](mailto:graysenbrinkman@gmail.com)
+email: [graybrinkman06@gmail.com](mailto:graybrinkman06@gmail.com)
 
 description: >
-Portfolio of Graysen Brinkman, Aerospace Engineering student at
-Embry-Riddle Aeronautical University pursuing a minor in Applied Mathematics.
+Portfolio of Graysen Brinkman, Aerospace Engineering student at Embry-Riddle Aeronautical University pursuing a minor in Applied Mathematics.
 
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: default
 search: false
 
-# Build settings
+remote_theme: mmistakes/minimal-mistakes
 
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
 
 permalink: /:categories/:title/
 
@@ -32,8 +30,6 @@ plugins:
 
 defaults:
 
-# Posts
-
 * scope:
   path: ""
   type: posts
@@ -44,8 +40,6 @@ defaults:
   comments: true
   share: true
   related: true
-
-# Pages
 
 * scope:
   path: "_pages"

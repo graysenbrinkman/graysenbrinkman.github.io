@@ -175,22 +175,27 @@ permalink: /
 <div class="hero-banner">
   <img src="/assets/images/index/airplanebanner.jpg" alt="Aircraft Banner">
 
+  <div class="hero-banner">
+  <img src="/assets/images/index/airplanebanner.jpg" alt="Aircraft Banner">
+
   <div class="hero-text">
-  <h1>Graysen Brinkman</h1>
+    <h1>Graysen Brinkman</h1>
 
-  <p>
-    Aerospace Engineering Student<br>
-    Embry-Riddle Aeronautical University<br>
-    4.0 GPA • Applied Mathematics Minor
-  </p>
+    <p>
+      Aerospace Engineering Student<br>
+      Embry-Riddle Aeronautical University<br>
+      4.0 GPA • Applied Mathematics Minor
+    </p>
 
-  <div class="hero-links">
-    <a href="/resume/">Resume</a>
-    <a href="https://linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a>
-    <a href="https://github.com/brinkgra">GitHub</a>
-    <a href="mailto:graybrinkman06@gmail.com">Contact</a>
+    <div class="hero-links">
+      <a href="/resume/">Resume</a>
+      <a href="https://linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a>
+      <a href="https://github.com/brinkgra">GitHub</a>
+      <a href="mailto:graybrinkman06@gmail.com">Contact</a>
+    </div>
   </div>
 </div>
+
 
 <div class="about-section">
   <h2>About Me</h2>

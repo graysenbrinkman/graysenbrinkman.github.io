@@ -175,12 +175,6 @@ permalink: /
 <div class="hero-banner">
   <img src="/assets/images/index/airplanebanner.jpg" alt="Aircraft Banner">
 
-  <div class="hero-banner">
-  <img src="/assets/images/index/airplanebanner.jpg" alt="Aircraft Banner">
-
-  <div class="hero-banner">
-  <img src="/assets/images/index/airplanebanner.jpg" alt="Aircraft Banner">
-
   <div class="hero-text">
     <h1>Graysen Brinkman</h1>
 

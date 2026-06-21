@@ -1,14 +1,16 @@
 ---
 ---
 
+/* =========================
+   WIDTH SETTINGS (MUST COME FIRST)
+   ========================= */
+$max-width: 1400px;
+
 @import "minimal-mistakes";
 
 /* =========================
    WIDER LAYOUT OVERRIDES
    ========================= */
-
-/* Increase overall site width */
-$max-width: 1400px;
 
 /* Expand main content area */
 .page__content {
@@ -17,12 +19,12 @@ $max-width: 1400px;
   margin-right: auto;
 }
 
-/* Remove leftover sidebar spacing behavior */
+/* Remove sidebar */
 .sidebar {
   display: none;
 }
 
-/* Let page use full grid width */
+/* Full-width layout behavior */
 .page {
   grid-template-columns: 1fr !important;
   padding-left: 2rem;
